@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container {
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.nav-container a {
+    color: black;
+    float: left;
+    text-align: center;
+    padding: 40px 26px;
+    text-decoration: none;
+}
+
+.nav-links {
+    float: right;
+    font-size: 0.85rem;
+}
+
+#logo {
+    float: left;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 25px;
+    z-index: 1000;
+    transform: translateX(-170px);
+
+
+}
+
+#subscribe-nav {
+    color: red;
+    font-weight: 700;
+}

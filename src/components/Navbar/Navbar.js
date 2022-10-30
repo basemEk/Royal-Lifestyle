@@ -1,5 +1,5 @@
-import './Style.css'
-import Logo from '../../images/NabLogo.jpg'
+import './Navbar.css'
+import Logo from '../../assets/logo.png'
 
 function Navbar() {
 
