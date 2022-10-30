@@ -1,0 +1,55 @@
+.PremiumBody {
+    width: 70%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: center;
+    margin-top: 100px;
+    position: relative;
+}
+
+.pleyers>img {
+    width: 400px;
+}
+
+.leftSection {
+    width: 50%;
+}
+
+.leftSection>img {
+    margin-bottom: 40px;
+}
+
+.leftSection h1 {
+    margin-bottom: 40px;
+    padding-right: 80px;
+}
+
+.leftSection>p {
+    margin-bottom: 40px;
+}
+
+.rightSection {
+    width: 50%;
+    z-index: -1;
+}
+
+.rightSection>p {
+    padding-left: 50px;
+}
+
+.rightSection>img {
+    padding-left: 50px;
+}
+
+.leftSection>h1 {
+    width: 100%;
+}
+
+.premiumHouse>img {
+    width: 105%;
+    z-index: 10px;
+}

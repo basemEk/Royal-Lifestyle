@@ -1,0 +1,73 @@
+.WelcomeSliderDiv>div {
+    padding-top: 10px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    width: 50%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body {
+    margin-bottom: 20px;
+    z-index: -10;
+}
+
+.sectionImage {
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.womenImage {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.sectionParagraph {
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-top: 10px;
+
+}
+
+/* Slider */
+
+.upcomingSlider {
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.sliderTag {
+    z-index: 10;
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+
+}
+
+.sectionHead {
+    margin-top: 50px;
+}
+
+.backgroundImageSlider {
+    background: url('../../images/imageTrophySlider.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}

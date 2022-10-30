@@ -1,0 +1,68 @@
+.bannerBody {
+    margin-bottom: 100px;
+    z-index: -100;
+}
+
+.imageTextSection {
+    width: 50%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.backgroundImageSlider {
+    background: url('../../images/imageTrophySlider.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+.bannerImage {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.backgroundImageSliderContent {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+.backgroundImageSliderContent>h1 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.backgroundImageSliderContent>button {
+    border: 2px solid rgb(220, 216, 216);
+    padding: 10px;
+    width: 20%;
+    background-color: transparent;
+    color: white;
+    transform: translateX(200%);
+    cursor: pointer;
+}
+
+.backgroundImageSliderContent>button:hover {
+    color: black;
+    background-color: aliceblue;
+    opacity: 60%;
+    border: 1px solid black;
+}
