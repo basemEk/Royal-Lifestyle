@@ -1,0 +1,114 @@
+/*******************************Slider***/
+.divFeature {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.SliderFeature {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.singleSlide {
+    background-color: white;
+    margin-left: 50px;
+    position: relative;
+    border-style: groove;
+    border-color: #a9a2a20f;
+}
+
+.singleSlidecontainer {
+    margin-right: 30px;
+}
+
+.singleSlide>p {
+    text-align: center;
+    font-weight: 300;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+.singleSlide>h3>strong {
+    color: black
+}
+
+.singleSlide>h3 {
+    color: rgb(122, 95, 58);
+}
+
+.singleSlidearrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+.singleSlide>h3 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.singleSlideIMagePrice {
+    color: white;
+    font-weight: 400;
+    background-color: rgb(20 15 18 / 48%);
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    z-index: 1000;
+    top: 5%;
+    right: 5%;
+    /* float: right; */
+}
+
+.singleSlideIMage {
+    height: 200px;
+    width: 100%;
+}
+
+.btnControllNext {
+    margin-left: 40px;
+}
+
+
+/********************Header*/
+.FeatureHeading {
+    /* background-color: red; */
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #7e6d44;
+
+}
+
+.FeatureHeading>h1 {
+    margin-top: 10px;
+}
+
+.FeatureHeading>p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: medium;
+}
+
+.FeatureContainer {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
