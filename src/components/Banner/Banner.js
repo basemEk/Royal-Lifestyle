@@ -2,10 +2,7 @@ import React from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import trophy from '../../images/trophy.jpg'
-import dpworld from '../../images/dpworld.jpg'
-import trophyLogo from '../../images/trophyLogo.jpg'
-import './Style.css'
+import './Style.css';
 
 
 export default function Banner() {
@@ -19,6 +16,8 @@ export default function Banner() {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
+
+      dotsClass: "slick-dots slick-thumb",
         //---------------------------------Indicators
         appendDots: dots => (
             <div
@@ -48,7 +47,15 @@ export default function Banner() {
 
             <div className="bannerSlider">
                 <Slider className="sliderTag" {...settings}>
-                    {/** */}
+                   <div
+                        className=" backgroundImageSlider"
+                    >
+                        <section className='backgroundImageSliderContent'>
+                            <h1>Get a Unique Golf Experience</h1>
+                            <button>BOOK TEE TIME</button>
+                        </section>
+                    </div>
+
                     <div
                         className=" backgroundImageSlider"
                     >
@@ -57,8 +64,7 @@ export default function Banner() {
                             <button>BOOK TEE TIME</button>
                         </section>
                     </div>
-                    {/** */}
-                    {/** */}
+
                     <div
                         className=" backgroundImageSlider"
                     >
@@ -67,17 +73,7 @@ export default function Banner() {
                             <button>BOOK TEE TIME</button>
                         </section>
                     </div>
-                    {/** */}
-                    {/** */}
-                    <div
-                        className=" backgroundImageSlider"
-                    >
-                        <section className='backgroundImageSliderContent'>
-                            <h1>Get a Unique Golf Experience</h1>
-                            <button>BOOK TEE TIME</button>
-                        </section>
-                    </div>
-                    {/** */}
+
                 </Slider>
             </div>
         </div>

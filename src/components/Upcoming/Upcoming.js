@@ -46,21 +46,17 @@ export default function Upcoming() {
 
     return (
         <div className='UpcomingBody'>
-            {/**Image */}
             <section className='imageTextSection'>
                 <img src={trophy} alt='trophy' className='trophyImage' />
             </section>
-            {/**Title */}
             <section className='imageTextSection'>
-                <h1 className='trophyTitle'>Title Here </h1>
+                <h1 className='trophyTitle'>Upcoming Tournaments</h1>
             </section>
-            {/**Text */}
             <section className='imageTextSection'>
                 <p>
                     using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default
                 </p>
             </section>
-            {/**Slider */}
             <div className="upcomingSlider">
                 <Slider className="sliderTag" {...settings}>
                     <div
@@ -91,7 +87,6 @@ export default function Upcoming() {
                         </section>
                     </div>
 
-                    {/** */}
                     <div
                         className=" backgroundImageSlider"
                     >
@@ -120,7 +115,6 @@ export default function Upcoming() {
                         </section>
                     </div>
 
-                    {/** */}
                     <div
                         className=" backgroundImageSlider"
                     >
@@ -149,7 +143,6 @@ export default function Upcoming() {
                             <button>BOOK NOW</button>
                         </section>
                     </div>
-                    {/** */}
 
                 </Slider>
             </div>

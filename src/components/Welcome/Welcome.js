@@ -2,7 +2,7 @@ import React from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import womenImage from '../../images/womenImage.jpg'
+import womenImage from '../../assets/person-1.png'
 import './Style.css'
 
 export default function Welcome() {
@@ -44,47 +44,33 @@ export default function Welcome() {
             <Slider className="WelcomeSlider" {...settings}>
                 <div className='WelcomeSliderDiv'>
                     <div>
-                        {/**Image */}
-                        <img src={womenImage} className='womenImage' alt='avatar' />
-                        {/**Title */}
+                        <img src={womenImage} className='personImage' alt='avatar' />
                         <section className='sectionHead'>
-                            <h1>WE HAVE TITLE HERE </h1>
+                            <h1>WELCOME TO ROYAL LIFESTYLE</h1>
                         </section>
                         <section >
-                            {/**Text*/}
                             <article className='sectionParagraph'>
-                                using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default
+                                <p>using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default</p>
                             </article>
                             <article className='sectionParagraph'>
-                                using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default
+                                <h4>JACK CHARLES</h4>
                             </article>
-                            <article className='sectionParagraph'>
-                                now use Lorem Ipsum as their default
-                            </article>
-
                         </section>
                     </div>
                 </div>
                 <div className='WelcomeSliderDiv'>
-                    <div>
-                        {/**Image*/}
+                    <div className="welcome-container">
                         <img src={womenImage} className='womenImage' alt='avatar' />
-                        {/**Title */}
                         <section className='sectionHead'>
-                            <h1> TITLE HERE </h1>
+                            <h1>WELCOME TO ROYAL LIFESTYLE</h1>
                         </section>
-                        {/**Text */}
-                        <section >
+                        <section>
                             <article className='sectionParagraph'>
-                                using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default
+                                <p>using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default</p>
                             </article>
                             <article className='sectionParagraph'>
-                                using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default
+                                <h4>JACK CHARLES</h4>
                             </article>
-                            <article className='sectionParagraph'>
-                                now use Lorem Ipsum as their default
-                            </article>
-
                         </section>
                     </div>
                 </div>

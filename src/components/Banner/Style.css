@@ -43,11 +43,11 @@
 }
 
 .backgroundImageSliderContent>h1 {
-    font-weight: bold;
     margin-bottom: 30px;
-    font-size: 40px;
+    font-size: 50px;
     color: white;
     text-align: center;
+    font-family: sans-serif;
 }
 
 .backgroundImageSliderContent>button {
@@ -63,6 +63,6 @@
 .backgroundImageSliderContent>button:hover {
     color: black;
     background-color: aliceblue;
-    opacity: 60%;
+    opacity: 40%;
     border: 1px solid black;
 }

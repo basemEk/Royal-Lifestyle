@@ -68,11 +68,12 @@
 }
 
 .imageTextSection>.trophyTitle {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .imageTextSection>p {
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    font-weight: 200;
 }
 
 

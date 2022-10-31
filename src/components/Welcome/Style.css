@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+
+.welcome-container {
+    padding-top: -10px;
+    margin-top: 50px;
+}
+
 .WelcomeSliderDiv>div {
-    padding-top: 10px;
+    padding-top: -10px;
     margin-top: 50px;
     padding-bottom: 10px;
     width: 50%;
@@ -22,7 +29,7 @@
     margin-top: 50px;
 }
 
-.womenImage {
+.personImage {
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -34,7 +41,6 @@
     text-align: center;
     margin-top: 10px;
     margin-top: 10px;
-
 }
 
 /* Slider */
@@ -70,4 +76,16 @@
     flex-direction: column;
     justify-content: center;
     justify-items: center;
+}
+
+section h1 {
+    color: #9E9985;
+    margin-top: -25px;
+    font-family: 'GFS Didot', serif;
+
+}
+
+article h4 {
+    color: #9E9985;
+    font-family: 'GFS Didot', serif;
 }
