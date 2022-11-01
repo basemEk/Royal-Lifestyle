@@ -2,9 +2,9 @@ import React from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import './Style.css'
+import './Style.css';
 import arrow from '../../images/arrow.png'
-import golfexperience1 from '../../images/Group 4116.png'
+// import golfexperience1 from '../../images/Group 4116.png'
 import Group19 from '../../images/Group 4119.png'
 import Group20 from '../../images/Group 4120.png'
 import Group26 from '../../images/Group 4126.png'
@@ -39,17 +39,18 @@ export default function Feature() {
                     borderRadius: "100px"
                 }}
             >
-
             </div>
         )
-
     };
+
     const next = () => {
         Slider.slickNext();
     }
     const prev = () => {
         Slider.slickPrev();
     }
+
+    
     return (
 
         <div className='FeatureContainer'>
@@ -76,7 +77,7 @@ export default function Feature() {
                 <Slider className='SliderFeature'
                     ref={c => (Slider = c)}
                     {...settingsService}>
-                    <div className='singleSlidecontainer'>
+                    <div className='singleSlidecontainer'>              
                         <div className='singleSlide'  >
                             <div className='singleSlideIMage'>
                                 <img placeholder='Image' alt='singleSlideIMage' />
@@ -93,47 +94,49 @@ export default function Feature() {
                             </div>
                         </div>
                     </div>
-                    <div className='singleSlidecontainer'>
-                        <div className='singleSlide'  >
-                            <div className='singleSlideIMage'>
-                                <img placeholder='Image' alt='singleSlideIMage' />
-                                <div className='singleSlideIMagePrice'>
-                                    <p>45$</p>
-                                    <p>Starting</p>
-                                </div>
-                            </div>
-                            <p>Trump National Miami</p>
-                            <h3>4.0-star <strong>HOTEL CLASS</strong></h3>
-                            <div className='singleSlidearrow'>
-                                <img src={arrow} alt='arrow' className='arrow' />
-                            </div>
-                        </div>
-                    </div>
-                    <div className='singleSlidecontainer'>
-                        <div className='singleSlide'  >
-                            <div className='singleSlideIMage'>
-                                <img placeholder='Image' alt='singleSlideIMage' />
-                                <div className='singleSlideIMagePrice'>
-                                    <p>45$</p>
-                                    <p>Starting</p>
-                                </div>
-                            </div>
-                            <p>Trump National Miami</p>
-                            <h3>4.0-star <strong>HOTEL CLASS</strong></h3>
-                            <div className='singleSlidearrow'>
-                                <img src={arrow} alt='arrow' className='arrow' />
-                            </div>
-                        </div>
-                    </div>
-                    <div className='singleSlidecontainer'>
-                        <div className='singleSlide'  >
-                            <div className='singleSlideIMage'>
-                                <img placeholder='Image' alt='singleSlideIMage' />
-                                <div className='singleSlideIMagePrice'>
-                                    <p>45$</p>
-                                    <p>Starting</p>
-                                </div>
 
+                    <div className='singleSlidecontainer'>
+                        <div className='singleSlide'  >
+                            <div className='singleSlideIMage'>
+                                <img placeholder='Image' alt='singleSlideIMage' />
+                                <div className='singleSlideIMagePrice'>
+                                    <p>45$</p>
+                                    <p>Starting</p>
+                                </div>
+                            </div>
+                            <p>Trump National Miami</p>
+                            <h3>4.0-star <strong>HOTEL CLASS</strong></h3>
+                            <div className='singleSlidearrow'>
+                                <img src={arrow} alt='arrow' className='arrow' />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='singleSlidecontainer'>
+                        <div className='singleSlide'  >
+                            <div className='singleSlideIMage'>
+                                <img placeholder='Image' alt='singleSlideIMage' />
+                                <div className='singleSlideIMagePrice'>
+                                    <p>45$</p>
+                                    <p>Starting</p>
+                                </div>
+                            </div>
+                            <p>Trump National Miami</p>
+                            <h3>4.0-star <strong>HOTEL CLASS</strong></h3>
+                            <div className='singleSlidearrow'>
+                                <img src={arrow} alt='arrow' className='arrow' />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='singleSlidecontainer'>
+                        <div className='singleSlide'  >
+                            <div className='singleSlideIMage'>
+                                <img placeholder='Image' alt='singleSlideIMage' />
+                                <div className='singleSlideIMagePrice'>
+                                    <p>45$</p>
+                                    <p>Starting</p>
+                                </div>
                             </div>
                             <p>Trump National Miami</p>
                             <h3>4.0-star <strong>HOTEL CLASS</strong></h3>
@@ -148,8 +151,6 @@ export default function Feature() {
                         <img src={Group19} className='controllArrows' alt='controllArrow' />
                     </button>
                 </div>
-
-
             </div>
         </div>
 

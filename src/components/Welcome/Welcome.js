@@ -74,7 +74,6 @@ export default function Welcome() {
                         </section>
                     </div>
                 </div>
-
             </Slider>
 
         </body>

@@ -6,7 +6,6 @@ import Group114 from '../../images/Group 114.png'
 export default function Club() {
     return (
         <div className='clubContainer'>
-            {/**Header */}
             <div className='ClubHeading'>
                 <div>
                     <img alt='ClubHeading' src={Group26} />
@@ -18,9 +17,8 @@ export default function Club() {
                     making it look like readable English. Many desktop publishing packages and web page editors now u
                 </p>
             </div>
-            {/**Body */}
+            
             <div className='clubBody'>
-
                 <div className='clubBodyImg01'>
                     <img src={Group09} alt='Group09' />
                 </div>
@@ -32,10 +30,9 @@ export default function Club() {
 
                 <div className='clubBodyImg02'>
                     <img src={Group114} alt='Group114' />
-                    <sapn>whatch vedio</sapn>
+                    <div>watch video</div>
                 </div>
-
             </div>
-        </div >
+        </div>
     )
 }

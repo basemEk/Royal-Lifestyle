@@ -3,6 +3,10 @@
     z-index: -100;
 }
 
+.bannerSlider {
+    padding: 0 20px;
+}
+
 .imageTextSection {
     width: 50%;
     height: fit-content;
