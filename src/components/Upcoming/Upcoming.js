@@ -47,7 +47,7 @@ export default function Upcoming() {
             <div className="upcomingSlider">
                 <Slider className="sliderTag" {...settings}>
                     <div
-                        className=" backgroundImageSlider"
+                        className=" backgroundImageSliderTrophy"
                     >
                         <section className='upcomingImage'>
                             <img src={dpworld} alt='upcomingImage' />
@@ -75,7 +75,7 @@ export default function Upcoming() {
                     </div>
 
                     <div
-                        className=" backgroundImageSlider"
+                        className=" backgroundImageSliderTrophy"
                     >
                         <section className='upcomingImage'>
                             <img src={dpworld} alt='upcomingImage' />
@@ -103,7 +103,7 @@ export default function Upcoming() {
                     </div>
 
                     <div
-                        className=" backgroundImageSlider"
+                        className=" backgroundImageSliderTrophy"
                     >
                         <section className='upcomingImage'>
                             <img src={dpworld} alt='upcomingImage' />

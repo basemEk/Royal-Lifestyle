@@ -12,6 +12,7 @@ body {
 .nav-container {
     overflow: hidden;
     z-index: 1000;
+    padding-left: 40px;
 }
 
 .nav-container a {
@@ -29,7 +30,7 @@ body {
 
 #logo {
     position: absolute;
-    margin-left: 50px;
+    margin-left: 20px;
     margin-top: 25px;
     z-index: 1000;
     transform: translateX(-170px);

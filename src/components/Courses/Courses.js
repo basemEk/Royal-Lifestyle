@@ -8,6 +8,7 @@ import Group19 from '../../images/Group 4119.png'
 import Group20 from '../../images/Group 4120.png'
 import Group18 from '../../images/Group 4118.png'
 import Group16 from '../../images/Group 4116.png'
+import arrow from '../../images/arrow.png'
 
 export default function Courses() {
 
@@ -69,13 +70,13 @@ export default function Courses() {
                     </button>
                 </div>
                 <Slider className="sliderOne" {...settings}
-                // ref={c => (Slider = c)}
+                    ref={c => (Slider = c)}
                 >
                     <div className=''>
                         <div className='sliderOneContent'>
                             {/**Title */}
                             <section className=''>
-                                <h1>WE HAVE TITLE HERE </h1>
+                                <h2>WE HAVE TITLE HERE </h2>
                             </section>
                             {/**Text */}
                             <section className=''>
@@ -96,7 +97,7 @@ export default function Courses() {
                         <div className='sliderOneContent'>
                             {/**Title */}
                             <section className=''>
-                                <h1>WE HAVE TITLE HERE </h1>
+                                <h2>WE HAVE TITLE HERE </h2>
                             </section>
                             {/**Text */}
                             <section className=''>
@@ -116,7 +117,7 @@ export default function Courses() {
                         <div className='sliderOneContent'>
                             {/**Title */}
                             <section className=''>
-                                <h1>WE HAVE TITLE HERE </h1>
+                                <h2>WE HAVE TITLE HERE </h2>
                             </section>
                             {/**Text */}
                             <section className=''>
@@ -143,7 +144,7 @@ export default function Courses() {
             {/**Slider Two */}
 
             <Slider className='sliderTwo'
-                // ref={c => (Slider = c)}
+                ref={c => (Slider = c)}
                 {...settingsSlidertwo}>
                 <div className='singleSlideTwo'>
                     <img src={Group18} alt='Two' className='Two' />

@@ -13,13 +13,13 @@ export default function Footer() {
             <section>
                 <div className='footerSubsicrebtion'>
                     <h1>Subsicrebe to our Newsletter</h1>
-                    <input type={'email'} placeholder='enter your email' />
+                    <input type={'email'} placeholder='Enter your email' />
                 </div>
             </section>
             {/**Links */}
             <section className='footerLinks'>
                 <div className='footerLogos'>
-                    <div className='footerLogoDev'><img src={facebook} alt='footerLogoImg' /></div>
+                    <div id='facebookfooter' className='footerLogoDev'><img src={facebook} alt='footerLogoImg' /></div>
                     <div className='footerLogoDev'><img src={twitter} alt='footerLogoImg' /></div>
                     <div className='footerLogoDev'><img src={instagram} alt='footerLogoImg' /></div>
                     <div className='footerLogoDev'><img src={youtube} alt='footerLogoImg' /></div>
