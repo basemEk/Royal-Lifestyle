@@ -33,3 +33,54 @@
 .footerSubsicrebtion>input::placeholder {
     color: white;
 }
+
+.footerLinks {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footerLogos {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    /* background-color: red; */
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-evenly;
+}
+
+.footerLogoDev {
+    background-color: #7e6d44;
+    padding: 13px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.footerPrivecy {
+    width: 30%;
+}
+
+.footerItems {
+    width: 30%;
+}
+
+.footerItems ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-evenly;
+}

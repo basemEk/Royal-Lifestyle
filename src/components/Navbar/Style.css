@@ -29,7 +29,7 @@ body {
 
 #logo {
     position: absolute;
-    margin-left: -100px;
+    margin-left: 50px;
     margin-top: 25px;
     z-index: 1000;
     transform: translateX(-170px);

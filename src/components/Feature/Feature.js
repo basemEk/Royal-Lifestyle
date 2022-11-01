@@ -20,28 +20,14 @@ export default function Feature() {
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: false,
+        dotsClass: 'dotsFStyle',
         //---------------------------------Indicators
         appendDots: dots => (
-            <div
-                style={{ marginTop: '25px' }}
-            >
-                <ul style={{ marginTop: '25px' }}> {dots} </ul>
+            <div>
+                <ul> {dots} </ul>
             </div>
         ),
-        customPaging: i => (
-            <div
-                style={{
-                    width: "20px",
-                    marginTop: '40px',
-                    height: "20px",
-                    background: '#7d6e3e',
-                    color: "#7d6e3e",
-                    borderRadius: "100px"
-                }}
-            >
-
-            </div>
-        )
+        customPaging: i => (<div></div>)
 
     };
     const next = () => {

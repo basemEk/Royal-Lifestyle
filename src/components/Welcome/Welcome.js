@@ -16,27 +16,14 @@ export default function Welcome() {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
+        dotsClass: 'dotsStyle',
         //---------------------------------Indicators
         appendDots: dots => (
-            <div
-                style={{}}
-            >
-                <ul style={{}}> {dots} </ul>
+            <div>
+                <ul> {dots} </ul>
             </div>
         ),
-        customPaging: i => (
-            <div
-                style={{
-                    width: "20px",
-                    marginTop: '10px',
-                    height: "20px",
-                    background: '#7d6e3e',
-                    color: "#7d6e3e",
-                    borderRadius: "100px"
-                }}
-            >
-            </div>
-        )
+        customPaging: i => (<div></div>)
 
     }
     return (
