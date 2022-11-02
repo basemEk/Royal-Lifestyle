@@ -13,6 +13,12 @@ import arrow from '../../images/arrow.png'
 export default function Courses() {
 
     //---------------------------------Slider
+    const next = () => {
+        Slider.slickNext();
+    }
+    const prev = () => {
+        Slider.slickPrev();
+    }
     var settings = {
         dots: false,
         infinite: true,
@@ -23,22 +29,17 @@ export default function Courses() {
         slidesToScroll: 1,
         arrows: false,
     }
-    const next = () => {
-        Slider.slickNext();
-    }
-    const prev = () => {
-        Slider.slickPrev();
-    }
+
     var settingsSlidertwo = {
         dots: true,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 4000,
-        speed: 2000,
+        autoplaySpeed: 2000,
+        speed: 3000,
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: false,
-        dotsClass: 'dotsStyle',
+        dotsClass: 'dotsStyleCourses',
         //---------------------------------Indicators
         appendDots: dots => (
             <div>

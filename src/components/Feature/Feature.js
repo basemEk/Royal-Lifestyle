@@ -13,8 +13,6 @@ import Trump from '../../assets/trump-miami.png'
 import Mariot from '../../assets/mariot-hotel.png'
 
 
-
-
 export default function Feature() {
     var settingsService = {
         dots: true,
@@ -43,7 +41,7 @@ export default function Feature() {
         Slider.slickPrev();
     }
 
-    
+
     return (
 
         <div className='FeatureContainer'>
@@ -62,15 +60,15 @@ export default function Feature() {
 
             {/**Slider */}
             <div className='divFeature'>
-                <div>
-                    <button className='btnControllPrev' onClick={prev}>
-                        <img src={Group20} className='controllArrows' alt='controllArrow' />
-                    </button>
-                </div>
+
+                <button onClick={prev} className='btnControllPrev'>
+                    <img src={Group20} className='controllArrows' alt='controllArrow' />
+                </button>
+
                 <Slider className='SliderFeature'
                     ref={c => (Slider = c)}
                     {...settingsService}>
-                    <div className='singleSlidecontainer'>              
+                    <div className='singleSlidecontainer'>
                         <div className='singleSlide'  >
                             <div className='singleSlideIMage'>
                                 <img src={Trump} placeholder='Image' alt='singleSlideIMage' />
@@ -137,7 +135,6 @@ export default function Feature() {
                             </div>
                         </div>
                     </div>
-
                 </Slider>
                 <div>
                     <button className='btnControllNext' onClick={next}>

@@ -29,7 +29,7 @@
 }
 
 /*************************** sliderOneContainer  */
-.dotsStyle {
+.dotsStyleCourses {
     /* color: red; */
     width: 100%;
     margin: auto;
@@ -39,7 +39,7 @@
     justify-content: center;
 }
 
-.dotsStyle ul {
+.dotsStyleCourses ul {
     padding-left: 100px;
     display: flex;
     flex-direction: row;
@@ -48,19 +48,20 @@
     align-content: center;
     width: 100%;
     height: 40px;
-    font-size: 70px;
+    font-size: 50px;
 }
 
-.dotsStyle ul li {
-    color: gray;
+.dotsStyleCourses ul li {
+    color: rgb(109, 108, 108);
     cursor: pointer;
 }
 
-.dotsStyle ul li.slick-active {
-    color: green;
+.dotsStyleCourses ul li.slick-active {
+    color: #7aaf3a;
+    /* color: #9E9985; */
 }
 
-.dotsStyle {
+.dotsStyleCourses {
     width: "20px";
     margin-top: '10px';
     height: "20px";

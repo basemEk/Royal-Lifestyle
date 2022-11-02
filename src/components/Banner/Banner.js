@@ -16,7 +16,7 @@ export default function Banner() {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
-        dotsClass: 'dotsStyle',
+        dotsClass: 'dotsStyleBanner',
         //---------------------------------Indicators
         appendDots: dots => (
             <div>

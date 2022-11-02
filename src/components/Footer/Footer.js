@@ -2,13 +2,16 @@ import React from 'react'
 import './Style.css'
 import facebook from '../../images/facebook-app-symbol.png'
 import instagram from '../../images/instagram.png'
+import Group89 from '../../images/Group 4089.png'
 import youtube from '../../images/youtube.png'
 import twitter from '../../images/twitter.png'
 export default function Footer() {
     return (
         <div>
             {/**Banner Image */}
-            <section className='footerBannerImage'></section>
+            <section className='footerBannerImage'>
+                <img src={Group89} alt='Group89' />
+            </section>
             {/**Subsicrebtion */}
             <section>
                 <div className='footerSubsicrebtion'>

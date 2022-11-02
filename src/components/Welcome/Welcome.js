@@ -16,7 +16,10 @@ export default function Welcome() {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
-        dotsClass: 'dotsStyle',
+        dotsClass: 'dotsStyleWelcome',
+        pauseOnDotsHover: false,
+        pauseOnHover: false,
+        pauseOnFocus: false,
         //---------------------------------Indicators
         appendDots: dots => (
             <div>

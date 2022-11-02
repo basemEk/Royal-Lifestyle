@@ -18,24 +18,14 @@ export default function Upcoming() {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
+    dotsClass: 'dotsStyleUpcoming',
     //---------------------------------Indicators
     appendDots: (dots) => (
       <div style={{}}>
         <ul style={{}}> {dots} </ul>
       </div>
     ),
-    customPaging: (i) => (
-      <div
-        style={{
-          width: "20px",
-          marginTop: "30px",
-          height: "20px",
-          background: "#7d6e3e",
-          color: "#7d6e3e",
-          borderRadius: "100px",
-        }}
-      ></div>
-    ),
+    customPaging: (i) => (<div></div>),
   };
 
   return (
@@ -70,7 +60,7 @@ export default function Upcoming() {
                 <p className="upcomingText">
                   Many desktop publishing packages and web
                 </p>
-                <h3>17 - 20 NOV, 2022</h3>
+                <h3 className="upcomingH3">17 - 20 NOV, 2022</h3>
               </section>
 
               <section className="trophyLogo">
@@ -95,9 +85,9 @@ export default function Upcoming() {
 
               <section>
                 <p className="upcomingText">
-                  <h2>Many desktop publishing packages and web</h2>
-                  <h3>17 - 20 NOV, 2022</h3>
+                  Many desktop publishing packages and web
                 </p>
+                <h3 className="upcomingH3">17 - 20 NOV, 2022</h3>
               </section>
 
               <section className="trophyLogo">
@@ -122,9 +112,9 @@ export default function Upcoming() {
 
               <section>
                 <p className="upcomingText">
-                  <h2>Many desktop publishing packages and web</h2>
-                  <h3>17 - 20 NOV, 2022</h3>
+                  Many desktop publishing packages and web
                 </p>
+                <h3 className="upcomingH3">17 - 20 NOV, 2022</h3>
               </section>
 
               <section className="trophyLogo">
