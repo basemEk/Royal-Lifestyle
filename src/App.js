@@ -7,6 +7,7 @@ import Banner from './components/Banner/Banner';
 import Feature from './components/Feature/Feature';
 import Club from './components/Club/Club';
 import Footer from './components/Footer/Footer';
+import Courses from './components/Courses/Courses.js';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Upcoming />
       <Feature />
       <Club />
+      <Courses />
       <Footer />
     </div>
   );

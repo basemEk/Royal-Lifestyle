@@ -8,6 +8,11 @@ import arrow from '../../images/arrow.png'
 import Group19 from '../../images/Group 4119.png'
 import Group20 from '../../images/Group 4120.png'
 import Group26 from '../../images/Group 4126.png'
+import Dera from '../../assets/uae-dera.png'
+import Trump from '../../assets/trump-miami.png'
+import Mariot from '../../assets/mariot-hotel.png'
+
+
 
 
 export default function Feature() {
@@ -20,27 +25,15 @@ export default function Feature() {
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: false,
+        dotsClass: 'dotsFStyle',
         //---------------------------------Indicators
         appendDots: dots => (
-            <div
-                style={{ marginTop: '25px' }}
-            >
-                <ul style={{ marginTop: '25px' }}> {dots} </ul>
+            <div>
+                <ul> {dots} </ul>
             </div>
         ),
-        customPaging: i => (
-            <div
-                style={{
-                    width: "20px",
-                    marginTop: '40px',
-                    height: "20px",
-                    background: '#7d6e3e',
-                    color: "#7d6e3e",
-                    borderRadius: "100px"
-                }}
-            >
-            </div>
-        )
+        customPaging: i => (<div></div>)
+
     };
 
     const next = () => {
@@ -80,25 +73,7 @@ export default function Feature() {
                     <div className='singleSlidecontainer'>              
                         <div className='singleSlide'  >
                             <div className='singleSlideIMage'>
-                                <img placeholder='Image' alt='singleSlideIMage' />
-                                <div className='singleSlideIMagePrice'>
-                                    <p>45$</p>
-                                    <p>Starting</p>
-                                </div>
-                            </div>
-                            <p>Trump National Miami</p>
-                            <h3>4.0-star <strong>HOTEL CLASS</strong></h3>
-                            <div className='singleSlidearrow'>
-                                <img src={arrow} alt='arrow' className='arrow' />
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='singleSlidecontainer'>
-                        <div className='singleSlide'  >
-                            <div className='singleSlideIMage'>
-                                <img placeholder='Image' alt='singleSlideIMage' />
+                                <img src={Trump} placeholder='Image' alt='singleSlideIMage' />
                                 <div className='singleSlideIMagePrice'>
                                     <p>45$</p>
                                     <p>Starting</p>
@@ -115,7 +90,7 @@ export default function Feature() {
                     <div className='singleSlidecontainer'>
                         <div className='singleSlide'  >
                             <div className='singleSlideIMage'>
-                                <img placeholder='Image' alt='singleSlideIMage' />
+                                <img src={Mariot} placeholder='Image' alt='singleSlideIMage' />
                                 <div className='singleSlideIMagePrice'>
                                     <p>45$</p>
                                     <p>Starting</p>
@@ -132,7 +107,7 @@ export default function Feature() {
                     <div className='singleSlidecontainer'>
                         <div className='singleSlide'  >
                             <div className='singleSlideIMage'>
-                                <img placeholder='Image' alt='singleSlideIMage' />
+                                <img src={Dera} placeholder='Image' alt='singleSlideIMage' />
                                 <div className='singleSlideIMagePrice'>
                                     <p>45$</p>
                                     <p>Starting</p>
@@ -145,6 +120,24 @@ export default function Feature() {
                             </div>
                         </div>
                     </div>
+
+                    <div className='singleSlideContainer'>
+                        <div className='singleSlide'  >
+                            <div className='singleSlideIMage'>
+                                <img src={Mariot} placeholder='Image' alt='singleSlideIMage' />
+                                <div className='singleSlideIMagePrice'>
+                                    <p>45$</p>
+                                    <p>Starting</p>
+                                </div>
+                            </div>
+                            <p>Trump National Miami</p>
+                            <h3>4.0-star <strong>HOTEL CLASS</strong></h3>
+                            <div className='singleSlidearrow'>
+                                <img src={arrow} alt='arrow' className='arrow' />
+                            </div>
+                        </div>
+                    </div>
+
                 </Slider>
                 <div>
                     <button className='btnControllNext' onClick={next}>

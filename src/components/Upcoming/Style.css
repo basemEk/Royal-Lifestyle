@@ -44,7 +44,7 @@ section p h3 {
 
 .upcomingText {
     color: white;
-    font-size: x-large;
+    font-size: medium;
     width: 40%;
     margin: auto;
     text-align: center;
@@ -57,6 +57,21 @@ section p h3 {
     margin-top: 70px;
     font-size: xx-large;
     padding-top: 40px;
+}
+
+.backgroundImageSliderTrophy {
+    /* background: url('../../images/Group 4118.png'); */
+    background: url('../../images/imageTrophySlider.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
 }
 
 .upcomingImage {
@@ -128,4 +143,24 @@ section p h3 {
 
 .secondBannerCaption {
     margin: 50px auto 0 auto;
+}
+
+.dotsStyle ul li {
+    color: gray;
+    cursor: pointer;
+}
+
+.dotsStyle ul li.slick-active {
+    color: green;
+}
+
+.dotsStyle {
+    width: "20px";
+    margin-top: '10px';
+    height: "20px";
+    background: '#7d6e3e';
+    color: "#7d6e3e";
+    border-radius: "100px";
+    /* background-color: red; */
+    padding-left: 10px;
 }
