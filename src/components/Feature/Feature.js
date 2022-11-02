@@ -122,9 +122,9 @@ export default function Feature() {
                     </div>
 
                     <div className='singleSlideContainer'>
-                        <div className='singleSlide'  >
-                            <div className='singleSlideIMage'>
-                                <img src={Mariot} placeholder='Image' alt='singleSlideIMage' />
+                        <div className='singleSlide'>
+                            <div className='singleSlideIMage card-1'>
+                                {/* <div className="img-slider"><img src={Mariot} placeholder='Image' alt='singleSlideIMage' /></div> */}
                                 <div className='singleSlideIMagePrice'>
                                     <p>45$</p>
                                     <p>Starting</p>
@@ -137,7 +137,6 @@ export default function Feature() {
                             </div>
                         </div>
                     </div>
-
                 </Slider>
                 <div>
                     <button className='btnControllNext' onClick={next}>
