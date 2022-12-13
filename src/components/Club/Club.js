@@ -1,5 +1,5 @@
-import './Style.css'
-import Group26 from '../../images/Group 4126.png'
+// import './Style.css'
+import Group26 from '../../assets/golf-stick.png'
 import Group09 from '../../images/Group 4109.png'
 import Group114 from '../../images/Group 114.png'
 
@@ -20,10 +20,11 @@ export default function Club() {
             
             <div className='clubBody'>
                 <div className='clubBodyImg01'>
-                    <img src={Group09} alt='Group09' />
+                    <img src={Group09} alt='Group09' id="JC-img"/>
                 </div>
 
                 <p className='clubBodyP'>JACK CHARLES GOLF CLUBS MADE FOR GOLFERS BY GOLFER</p>
+                
                 <div className='clubBodyBtn'>
                     <button>DISCOVER MORE</button>
                 </div>

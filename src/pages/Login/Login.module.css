@@ -1,0 +1,83 @@
+.loginWrapper {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* box-shadow: 4px 3px 8px 1px rgba(0,0,0,0.75); */
+    height: 500px;
+    margin-right: 20px;
+    background-color: white;
+}
+
+.loginLogo {
+    width: 50px;
+    margin: 5% auto;
+}
+
+.LoginTitle > p {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #4E4E4E;
+}
+
+.LoginForm > label {
+    padding-left: 100px;
+}
+
+.LoginForm > input {
+    font-size: 0.7rem;
+}
+
+.em, .pass {
+    width: 250px !important;
+    height: 30px !important;
+}
+
+.pass {
+    margin: 0 auto;
+    display: block;
+}
+
+.forgetPw {
+    float: right;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+.forgetPwP {
+    text-decoration: none;
+    font-size: 0.7rem;
+    color: #4E4E4E;
+}
+
+.LoginBtn {
+    margin: 5% auto;
+    padding: 5px 20px;
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    transform: translateX(40px);
+    cursor: pointer;
+}
+
+.LoginBtn > input {
+    border: 2px solid #6A5E3F;
+    cursor: pointer;
+}
+
+.signUpCheck {
+    text-align: center;
+    margin-top: -30px !important;
+    font-size: 0.8rem;
+}
+
+.signUp {
+    text-decoration: none !important;
+    font-weight: bold;
+    color: #7E6D44
+}
+
+input::placeholder {
+    padding-left: 10px;
+}

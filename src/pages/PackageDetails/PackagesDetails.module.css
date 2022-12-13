@@ -1,0 +1,391 @@
+.packageSliderContainer {
+    display: flex;
+    margin-top: 12%;
+}
+
+.packImgSlide {
+    width: 80%;
+    height: 500px;
+    transform: translateX(30px);
+}
+
+.similarh4 {
+    top: 30%;
+    left: 7%;
+    position: absolute;
+}
+
+/* SLIDER HORIZONTAL */
+.sliderWrapper {
+    width: 55%;
+}
+
+.similarOffers {
+    text-transform: uppercase;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    color: #454545;
+}
+
+.pack > img {
+    width: 700px;
+}
+
+.pack-1 {
+    padding: 10px;
+    flex: 0 1 33%;
+    position: relative; 
+}
+
+.pack-1 h4 {
+    font-weight: bold;
+    font-size: large;
+    margin-top: 20px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.pack-1 h4, .enjoy {
+    color: #454545;
+}
+
+.contentsNoImg {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contentsNoImg h4 {
+    margin-top: 15px;
+    color: #454545;
+    letter-spacing: 0.75px;
+    text-decoration: none;
+}
+
+.overlayPrice {
+    position: relative;
+}
+
+.textBlock {
+    position: absolute;
+    width: auto;
+    bottom: 165px;
+    right: 75px;
+    background-color: white;
+    color: #454545;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+.textBlock > p {
+    margin-top: 5px;
+}
+
+.explore {
+    color: #148E38;
+    font-weight: bolder;
+}
+
+.arrow {
+    width: 30px;
+    margin-left: 5px;
+    transform: translateY(-20px);
+}
+
+.enjoy {
+    width: 95%;
+    opacity: 80%;
+}
+
+.packImg {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+.golfPackageNames {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    margin: auto;
+}
+
+.viewInMap {
+    border: 2px solid #7E6D44;
+    width: 45%;
+    margin: 2% 7% 3% 7%;
+    cursor: pointer;
+}
+
+.viewInMap h5 {
+    text-align: center;
+    color: #7E6D44;
+}
+
+.threeRadios {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    background-color: #EFEFEF;
+    font-size: 0.8rem;
+    padding: 20px;
+    height: 250px;
+}
+
+.radio {
+    display: flex;
+    gap: 10px;
+}
+
+.middleLine {
+    text-decoration-line: line-through;
+}
+
+.discountPrices {
+    display: flex;
+    gap: 15px;
+}
+
+.dateDiscountContainer {
+    line-height: 0.7;
+}
+
+.discountCircle {
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 45%;
+    width: 40px;
+    height: 20px;
+    padding: 3px;
+    color: white;
+    background-color: black;
+}
+
+.testP {
+    display: block
+}
+
+.included {
+    margin: 5%;
+    padding-left: 18px;
+    font-size: 0.9rem;
+}
+
+.PackagesIcons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
+
+.PackagesIcons > div > img {
+    width: 22px;
+    background-color: #b1b2b3;
+    border-radius: 50%;
+}
+
+.packageDetailsLogin {
+    z-index: 1000;
+    right: 0;
+    top: 100px;
+    position: absolute;
+    height: 500px;
+    margin-right: 20px;
+    background-color: white;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .similarh4 {
+        top: 35%;
+        margin: 0 auto;
+        text-align: center;
+        z-index: -1;
+    }
+
+    .packageSliderContainer {
+        flex-direction: column;
+        margin-top: 35%;
+        margin-bottom: 55px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .packImgSlide {
+        width: 100%;
+        height: 250px;
+        transform: none;
+    }
+
+    .pack > img {
+        width: 350px;
+    }
+
+    /* SLIDER CENTER */
+    .sliderWrapper {
+        width: 100%;
+    }
+
+    .threeRadios {
+        width: 350px;
+        height: 350px;
+        margin: 10% auto;
+    }
+
+    .dateDiscountContainer {
+        line-height: 1.5;
+    }
+
+    .included {
+        font-size: 0.9rem;
+    }
+
+    .viewInMap {
+        border: 2px solid #7E6D44;
+        width: 55%;
+        margin: 0px auto 50px auto;
+        cursor: pointer;
+    }
+
+    .viewInMap h5 {
+        margin: auto;
+        font-size: 0.95rem;
+        padding: 10px;
+    }
+
+    .textBlock {
+        right: 55px;
+        bottom: 112px;
+    }
+
+    .contentsNoImg {
+        margin-bottom: 50px;
+    }
+
+    .PackagesIcons {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 20px
+    }
+
+}
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 998px) {
+    .similarh4 {
+        top: 40%;
+        left: 18%;
+        margin: 0 auto;
+        text-align: center;
+        z-index: -1;
+    }
+
+    .similarOffers {
+        text-align: center;
+        margin-right: 100px;
+    }
+
+    .packageSliderContainer {
+        flex-direction: column;
+        margin-top: 25%;
+        margin-bottom: 55px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .packImgSlide {
+        width: 100%;
+        height: 250px;
+        transform: none;
+    }
+
+    .pack > img {
+        width: 500px;
+    }
+
+    /* SLIDER CENTER */
+    .sliderWrapper {
+        width: 100%;
+    }
+
+    .threeRadios {
+        width: 600px;
+        height: 350px;
+        margin: 10% auto;
+    }
+
+    .dateDiscountContainer {
+        line-height: 1.5;
+    }
+
+    .included {
+        font-size: 0.9rem;
+        margin: 0 100px;
+    }
+
+    .viewInMap {
+        border: 2px solid #7E6D44;
+        width: 55%;
+        margin: 0px auto 50px auto;
+        cursor: pointer;
+    }
+
+    .viewInMap h5 {
+        margin: auto;
+        font-size: 0.95rem;
+        padding: 10px;
+    }
+
+    .textBlock {
+        right: 75px;
+        bottom: 164px;
+    }
+
+    .contentsNoImg {
+        margin-bottom: 50px;
+    }
+
+    .PackagesIcons {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 20px
+    }
+
+}
+
+
+
+
+@media (min-width: 2520px) {
+    .similarh4 {
+        top: 20%;
+        left: 15%;
+    }
+
+    .viewInMap {
+        width: 20%;
+        transform: translateX(270px);
+        /* margin: 0 auto; */
+    }
+
+    .similarOffers {
+        text-align: center;
+        margin: 5% auto;
+    }
+
+    .golfPackageNames {
+        margin: 5% auto;
+    }
+}

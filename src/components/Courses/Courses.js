@@ -2,17 +2,25 @@ import React from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import './Style.css'
+// import './Style.css'
 import Group25 from '../../images/Group 4125.png'
-import Group19 from '../../images/Group 4119.png'
-import Group20 from '../../images/Group 4120.png'
+// import Group19 from '../../images/Group 4119.png'
+// import Group20 from '../../images/Group 4120.png'
 import Group18 from '../../images/Group 4118.png'
 import Group16 from '../../images/Group 4116.png'
-import arrow from '../../images/arrow.png'
+import Group89 from '../../images/Group 4089.png'
+
 
 export default function Courses() {
-
     //---------------------------------Slider
+    // const next = () => {
+    //     Slider.slickNext();
+    // }
+    // const prev = () => {
+    //     Slider.slickPrev();
+    // }
+
+    
     var settings = {
         dots: false,
         infinite: true,
@@ -23,22 +31,33 @@ export default function Courses() {
         slidesToScroll: 1,
         arrows: false,
     }
-    const next = () => {
-        Slider.slickNext();
-    }
-    const prev = () => {
-        Slider.slickPrev();
-    }
+
     var settingsSlidertwo = {
         dots: true,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 4000,
-        speed: 2000,
+        autoplaySpeed: 2000,
+        speed: 3000,
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: false,
-        dotsClass: 'dotsStyle',
+        dotsClass: 'dotsStyleCourses',
+        responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                arrows: false,
+                slidesToShow: 3,
+              },
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                arrows: false,
+                slidesToShow: 1,
+              },
+            },
+          ],
         //---------------------------------Indicators
         appendDots: dots => (
             <div>
@@ -65,13 +84,13 @@ export default function Courses() {
             {/**Slider One */}
             <div className='sliderOneContainer'>
                 <div>
-                    <button className='btnControllPrev' onClick={prev}>
+                    {/* <button className='btnControllPrev' onClick={prev}>
                         <img src={Group20} className='controllArrows' alt='controllArrow' />
-                    </button>
+                    </button> */}
                 </div>
                 <Slider className="sliderOne" {...settings}
-                    ref={c => (Slider = c)}
-                >
+                    ref={c => (Slider = c)}>
+                
                     <div className=''>
                         <div className='sliderOneContent'>
                             {/**Title */}
@@ -79,7 +98,7 @@ export default function Courses() {
                                 <h2>WE HAVE TITLE HERE </h2>
                             </section>
                             {/**Text */}
-                            <section className=''>
+                            <section className='courses-paragraph'>
                                 <p>
                                     making it look like readable English. Many desktop publishing packages and web page editors now u
                                     <br />
@@ -100,7 +119,7 @@ export default function Courses() {
                                 <h2>WE HAVE TITLE HERE </h2>
                             </section>
                             {/**Text */}
-                            <section className=''>
+                            <section className='courses-paragraph'>
                                 <p>
                                     making it look like readable English. Many desktop publishing packages and web page editors now u
                                     <br />
@@ -120,7 +139,7 @@ export default function Courses() {
                                 <h2>WE HAVE TITLE HERE </h2>
                             </section>
                             {/**Text */}
-                            <section className=''>
+                            <section className='courses-paragraph'>
                                 <p>
                                     making it look like readable English. Many desktop publishing packages and web page editors now u
                                     <br />
@@ -135,9 +154,9 @@ export default function Courses() {
                     </div>
                 </Slider>
                 <div>
-                    <button className='btnControllNext' onClick={next}>
+                    {/* <button className='btnControllNext' onClick={next}>
                         <img src={Group19} className='controllArrows' alt='controllArrow' />
-                    </button>
+                    </button> */}
                 </div>
             </div>
 
@@ -165,9 +184,11 @@ export default function Courses() {
                 <div className='singleSlideTwo'>
                     <img src={Group16} alt='Two' className='Two' />
                 </div>
-
-
             </Slider>
+
+            <section className='footerBannerImage'>
+                <img src={Group89} alt='Group89' />
+            </section>
         </div>
     )
 }

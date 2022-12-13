@@ -1,0 +1,154 @@
+/* FORM */
+.formHead {
+    font-family: didot;
+    text-align: center;
+    color: #7E6D44;
+    margin: 20px auto;
+}
+
+.formHead > h1 {
+    margin-top: 10%;
+}
+
+.box {
+    width: 1100px;
+    display: block;
+    margin: 0 auto;
+}
+  
+.box>div>input {
+    width: 500px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+  
+  .box>div>label {
+    display: block;
+    margin: 10px 10px auto 310px;
+    padding-left: 0;
+    position: relative;
+    padding-bottom: 5px !important;
+    top: 20px;
+    color: #4E4E4E;
+  }
+  
+  .formBtn>input {
+    text-align: center;
+    margin: 15px auto 100px auto;
+    display: block;
+    padding: 10px 25px;
+    color: #4E4E4E;
+    background-color: transparent;
+    border: 2px solid #4E4E4E;
+  }
+
+  .privacy {
+    color: #4E4E4E;
+    text-align: center;
+    margin: 2% auto;
+    font-size: 0.8rem;
+  }
+
+
+
+
+
+  @media (max-width: 768px) {
+    .box > div > input, .box> div {
+        margin: 0 auto;
+    }
+
+    .box {
+        display: block;
+        flex-wrap: nowrap;
+        width: 300px;
+      }
+
+      .formHead {
+        margin-top: 100px;
+      }
+
+      .box>div>label {
+        margin-top: 30px;
+        margin-left: 0px;
+        padding-bottom: 0;
+        width: 300px;
+      }
+      
+      .box>div>input {
+        width: 300px;
+      }
+
+      .privacy {
+        color: #4E4E4E;
+        text-align: center;
+        margin: 5%;
+        font-size: 0.8rem;
+      }
+  }
+
+  .signUpLogin {
+    z-index: 1000;
+    right: 0px;
+    top: 110px;
+    position: absolute;
+    height: 500px;
+    margin-right: 20px;
+    background-color: white;
+  }
+
+
+
+
+
+
+  @media (min-width: 768px) and (max-width: 998px) {
+    .box > div > input, .box> div {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .box {
+        display: block;
+        flex-wrap: nowrap;
+        width: 300px;
+      }
+
+      .formHead {
+        margin-top: 100px;
+      }
+
+      .box>div>label {
+        margin-top: 30px;
+        margin-left: 0px;
+        padding-bottom: 0;
+        width: 300px;
+      }
+      
+      .box>div>input {
+        width: 300px;
+      }
+  }
+
+
+
+
+  @media (min-width: 768px) and (max-width: 998px) {
+    .formHead > h1 {
+        margin-top: 10%;
+    }
+
+    .box {
+        display: block;
+        width: 700px;
+    }
+      
+    .box > div > label {
+        margin-left: 50px;
+    }
+
+    .box > div > input, .box > div {
+        width: 600px;
+    }
+  }

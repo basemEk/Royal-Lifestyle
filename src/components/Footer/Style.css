@@ -1,12 +1,3 @@
-.footerBannerImage {
-    background-image: url('../../images/Group 4089.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-
-}
-
 .footerSubsicrebtion {
     width: 100%;
     height: auto;
@@ -35,7 +26,7 @@
     border: 1px solid #45454534;
     background-color: #454545cb;
     margin-bottom: 30px;
-    /* margin-top: 30px; */
+    opacity: 80%;
 }
 
 .footerSubsicrebtion>input::placeholder {
@@ -56,17 +47,14 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .footerLogos {
     display: flex;
     flex-direction: row;
     width: 30%;
-    /* background-color: red; */
     padding-left: 50px;
     padding-right: 50px;
-    justify-content: space-evenly;
 }
 
 .footerLogoDev {
@@ -74,6 +62,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    margin: 0 6px 0 6px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -92,8 +81,6 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-    /* padding-left: 50px;
-    padding-right: 50px; */
     justify-content: space-evenly;
 }
 
@@ -104,4 +91,116 @@
 #facebookfooter {
     padding-left: 17px !important;
     padding-right: 17px !important;
+}
+
+
+
+@media (max-width: 767px) {
+    .footerWrapper {
+        width: 375px;
+    }
+
+    .footerLogos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerLogoDev{
+        width: 40px;
+        height: 30px;
+        border-radius: 50%;
+        padding: 20px;
+    }
+
+    .footerLogoImg {
+        width: 10px;
+        height: 10px;
+    }
+    .footerLinks {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footerItems ul {
+        margin: auto 0;
+    }
+    .footerItems ul li {
+        cursor: pointer;
+        margin-right: 20px;
+    }
+    .footerPrivecy {
+        width: auto;
+    }
+    .footerSubsicrebtion>input {
+        width: 70%;
+    }
+    .footerSubsicrebtion>h1 {
+        margin-bottom: 30px;
+        font-size: large;
+    }
+
+}
+
+
+
+@media (min-width: 767px) and (max-width: 998px) {
+    .footerWrapper {
+        width: 767px;
+    }
+
+    .footerLogos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footerLogoDev{
+        width: 40px;
+        height: 30px;
+        border-radius: 50%;
+        padding: 20px;
+    }
+
+    .footerLogoImg {
+        width: 10px;
+        height: 10px;
+    }
+
+    .footerLinks {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footerItems ul {
+        margin: auto 0;
+    }
+
+    .footerItems ul li {
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    .footerPrivecy {
+        width: auto;
+    }
+
+    .footerSubsicrebtion>input {
+        width: 70%;
+    }
+
+    .footerSubsicrebtion>h1 {
+        margin-bottom: 30px;
+    }
+
+    /* .footerLogoDev{
+        width: 40px;
+        height: 30px;
+        border-radius: 50%;
+        padding: 20px;
+    } */
+
+
 }

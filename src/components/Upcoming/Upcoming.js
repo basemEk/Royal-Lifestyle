@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import trophy from "../../images/trophy.jpg";
 import dpworld from "../../assets/dp-world.png";
 import rolexSeries from "../../assets/rolex-series.png";
-import "./Style.css";
+// import "./Style.css";
 
 export default function Upcoming() {
   //---------------------------------Slider
@@ -18,35 +18,26 @@ export default function Upcoming() {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
+    dotsClass: 'dotsStyleUpcoming',
     //---------------------------------Indicators
     appendDots: (dots) => (
       <div style={{}}>
         <ul style={{}}> {dots} </ul>
       </div>
     ),
-    customPaging: (i) => (
-      <div
-        style={{
-          width: "20px",
-          marginTop: "30px",
-          height: "20px",
-          background: "#7d6e3e",
-          color: "#7d6e3e",
-          borderRadius: "100px",
-        }}
-      ></div>
-    ),
+    customPaging: (i) => (<div></div>),
   };
 
   return (
     <div className="UpcomingBody">
+      <div className="trophy-h1-p">
       <section className="imageTextSection">
         <img src={trophy} alt="trophy" className="trophyImage" />
       </section>
       <section className="imageTextSection">
         <h1 className="trophyTitle">Upcoming Tournaments</h1>
       </section>
-      <section className="imageTextSection">
+      <section className="imageTextSection trophy-p">
         <p>
           using Lorem Ipsum is that it has a more-or-less normal distribution of
           letters, as opposed to using 'Content here, content here', making it
@@ -54,12 +45,15 @@ export default function Upcoming() {
           page editors now use Lorem Ipsum as their default
         </p>
       </section>
+      </div>
+     
+
       <div className="upcomingSlider">
         <Slider className="sliderTag" {...settings}>
           <div className="secondBannerImage">
             <div className="secondBannerCaption">
               <section className="upcomingImage">
-                <img src={dpworld} alt="upcomingImage" />
+                <img src={dpworld} alt="upcomingImage" className="dp-icon"/>
               </section>
 
               <section className="upcomingTitle">
@@ -70,7 +64,7 @@ export default function Upcoming() {
                 <p className="upcomingText">
                   Many desktop publishing packages and web
                 </p>
-                <h3>17 - 20 NOV, 2022</h3>
+                <h3 className="upcomingH3">17 - 20 NOV, 2022</h3>
               </section>
 
               <section className="trophyLogo">
@@ -86,7 +80,7 @@ export default function Upcoming() {
           <div className="secondBannerImage">
             <div className="secondBannerCaption">
               <section className="upcomingImage">
-                <img src={dpworld} alt="upcomingImage" />
+                <img src={dpworld} alt="upcomingImage" className="dp-icon" />
               </section>
 
               <section className="upcomingTitle">
@@ -95,9 +89,9 @@ export default function Upcoming() {
 
               <section>
                 <p className="upcomingText">
-                  <h2>Many desktop publishing packages and web</h2>
-                  <h3>17 - 20 NOV, 2022</h3>
+                  Many desktop publishing packages and web
                 </p>
+                <h3 className="upcomingH3">17 - 20 NOV, 2022</h3>
               </section>
 
               <section className="trophyLogo">
@@ -113,7 +107,7 @@ export default function Upcoming() {
           <div className="secondBannerImage">
             <div className="secondBannerCaption">
               <section className="upcomingImage">
-                <img src={dpworld} alt="upcomingImage" />
+                <img src={dpworld} alt="upcomingImage" className="dp-icon" />
               </section>
 
               <section className="upcomingTitle">
@@ -122,9 +116,9 @@ export default function Upcoming() {
 
               <section>
                 <p className="upcomingText">
-                  <h2>Many desktop publishing packages and web</h2>
-                  <h3>17 - 20 NOV, 2022</h3>
+                  Many desktop publishing packages and web
                 </p>
+                <h3 className="upcomingH3">17 - 20 NOV, 2022</h3>
               </section>
 
               <section className="trophyLogo">

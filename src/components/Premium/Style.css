@@ -1,65 +1,235 @@
-section h1 {
-    font-size: 30px;
-    margin-left: 10px;
+.golf-houses-wrapper {
+    margin: 100px 200px 200px;
 }
 
-.PremiumBody {
-    width: 70%;
-    margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.crown-h1-p-players, .hands-p-houses {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-self: center;
-    margin-top: 100px;
-    position: relative;
 }
 
-.pleyers>img {
-    width: 400px;
+.img-players-houses {
+    width: 586px;
 }
 
-.leftSection {
+.houses {
+    position: absolute;
+    transform: translateY(-320px);
+}
+
+.par-1 {
+    width: 80%;
+    margin-top: 30px;
+}
+
+.crown {
+    margin-bottom: 60px;
+}
+
+.clap-p {
     width: 50%;
+    margin-left: 650px;
 }
 
-.leftSection>img {
-    margin-bottom: 40px;
+.clap-p p {
+    line-height: 30px;
 }
 
-.leftSection h1 {
-    margin-bottom: 30px;
-    padding-right: 80px;
+.beits {
+    display: none;
 }
 
-.leftSection>p {
-    margin: auto 50px 50px 10px;
-    font-weight: 200;
+
+
+
+
+@media (max-width: 768px) {
+    .body {overflow-x: hidden !important;width: 100vw !important;}
+
+    .golf-houses-wrapper {
+        margin: 100px auto 200px auto;
+    }
+
+    .img-players-houses {
+        width: 100%;
+        margin-bottom: 25%;
+    }
+
+    .crown-h1-p {
+        margin: auto 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .crown {
+        width: 80px;
+        align-self: center;
+        margin-bottom: 20px;
+    }
+
+    .crown, h1, .par-1 {
+        margin-left: 0;
+    }
+
+    .crown-h1-p-players {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .par-1 {
+        text-align: center;
+        padding: auto 10px !important;
+    }
+
+    .crown-h1-p h1, .par-1 {
+        margin: auto auto 20px auto;
+        text-align: center
+    }
+
+    .hands-p-houses {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .houses {
+        display: none;
+    }
+
+    .homes {
+        margin-top: 0;
+        position: relative;
+        padding: auto auto 300px auto;
+        margin-bottom: 100px;
+    	text-align: center;
+    }
+
+    .beits {
+        display: block;
+    }
+
+    .clap-p {
+        width: 80%;
+        position: relative;
+        margin: -50px auto 100px auto;
+        text-align: center;
+    }
+
+    .clap-p p {
+        line-height: normal;
+    }
+
 }
 
-.rightSection {
-    width: 40%;
-    z-index: -1;
+
+@media (max-width: 768px) {
+    .par-1 {
+        max-width: 80% !important;
+        margin: auto !important;
+        padding-bottom: 30px;
+    }
 }
 
-.rightSection>p {
-    padding-left: 50px;
-    line-height: 25px;
-    margin-left: 22px;
-    font-weight: 200;
-}
 
-.rightSection>img {
-    padding-left: 50px;
-    margin-left: 22px;
-}
 
-.leftSection>h1 {
-    width: 100%;
-}
+  @media (min-width: 768px) and (max-width: 1520px) {
 
-.premiumHouse>img {
-    width: 105%;
-    z-index: 10px;
-}
+    .body {
+        overflow-x: hidden !important;
+        width: 100vw !important;
+    }
+
+    .par-1 {
+        max-width: 60% !important;
+        margin: auto !important;
+        padding-bottom: 30px;
+    }
+
+    .golf-houses-wrapper {
+        margin: 100px auto 200px auto;
+    }
+
+    .img-players-houses {
+        width: 90%;
+        margin-bottom: 25%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .crown-h1-p {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .crown {
+        width: 80px;
+        align-self: center;
+        margin-bottom: 20px;
+    }
+
+    .crown-h1-p-players {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .par-1 {
+        text-align: center;
+        padding: auto 10px !important;
+    }
+
+    .crown-h1-p h1, .par-1 {
+        margin: auto auto 20px auto;
+        text-align: center
+    }
+
+    .hands-p-houses {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .houses {
+        display: none;
+    }
+
+    .homes {
+        margin-top: 0;
+        position: relative;
+        padding: auto auto 300px auto;
+        margin-bottom: 100px;
+    	text-align: center;
+    }
+
+    .beits {
+        display: block;
+    }
+
+    .clap-p {
+        width: 80%;
+        margin: -100px auto 30px auto;
+        text-align: center;
+        transform: translateY(-60px);
+    }
+
+    .clap-p p {
+        line-height: normal;
+    }
+  }
+
+
+
+  @media (min-width: 2520px){
+    .img-players-houses {
+        transform: translateX(400px);
+        width: 586px;
+    }
+
+    .crown-h1-p {
+        transform: translateX(400px);
+    }
+
+    .clap-p {
+        width: 30%;
+        margin-left: 0;
+        margin: 0 auto auto 1100px;
+    }
+  }
