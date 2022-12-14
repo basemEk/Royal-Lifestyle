@@ -520,11 +520,10 @@ textarea {
 
 .scales {
   margin-right: 0;
-
 }
 
 #scales-text {
-  transform: translateX(-500px);
+  transform: translateX(-50px);
 }
 
   #h4-golfPackage {
