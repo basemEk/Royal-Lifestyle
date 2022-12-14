@@ -70,12 +70,15 @@
   .boxTour>div>textarea {
     width: 1050px;
     height: 200px;
+    display: block;
+    margin: 0 auto;
   }
   
   .boxTour>div>label {
+    margin-left: 10px;
     margin-top: 20px;
-    margin-bottom: 10px;
-  }
+    margin-bottom: -20px;
+}
   
   .formBtn>input {
     text-align: center;
@@ -169,10 +172,15 @@
         width: 300px;
       }
       
-    
       .boxTour>div>input, .boxTour>div>textarea {
         width: 300px;
       }
+
+      .boxTour>div>label {
+        margin-left: -10px;
+        margin-top: 20px;
+        margin-bottom: -20px;
+    }
       
 }
 
@@ -230,10 +238,15 @@
         color: #4E4E4E;
     }
 
+    .boxTour>div>label {
+        margin-top: 10px;
+        margin-bottom: -20px;
+        margin-left: -10px;
+    }
+    
     .formHead > h1 {
         margin-top: 20%;
     }
-
 
     .boxTour {
         display: block;
