@@ -107,6 +107,7 @@
 
 
 
+
 @media (max-width: 768px) {
     body {overflow-x: hidden !important;}
     .tourImg {
@@ -254,19 +255,52 @@
     }
 }
 
+
+
+
 @media (min-width: 2520px) {
     .gdiv {
         flex-direction: column;
     }
 
-    .banner{
+    .banner {
         position: relative;
         width: 100%;
         height:100%;
     }
 
     .tourImg{
-        background-size: cover;
         width:100%;
     }
+
+    /* FORM */
+    .boxTour>div>input {
+        margin-bottom: 20px;
+        bottom: 50px;
+        margin-bottom: 30px;
+    }
+
+    .phoneInput {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        bottom: 50px;
+        margin-bottom: 30px; 
+    }
+
+    .boxTour>div>textarea {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .boxTour>div>label {
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: -20px;
+    }
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height:100%;
 }

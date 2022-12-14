@@ -63,9 +63,9 @@ export default function Tournaments() {
               <input type="email" />
             </div>
             <div>
-              <label for="phone">Phone</label>
+              <label for="number">Phone</label>
               <br />
-              <input type="phone" />
+              <input type="number" />
             </div>
             <div>
               <label for="text">Event Date</label>

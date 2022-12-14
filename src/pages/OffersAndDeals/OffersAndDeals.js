@@ -5,7 +5,7 @@ import arrowGreenPackages from "../../assets/arrow-green-packages.png";
 import gridImgPackages from "../../assets/grid-img-packages.png";
 import OffersAndDealsBnr from "../../assets/offers&dealsbanner.png";
 import { Link } from 'react-router-dom';
-
+import Login from "../Login/Login";
 
 export default function Offers_Deals() {
   return (
@@ -165,6 +165,11 @@ export default function Offers_Deals() {
           </div>
         </div>
       </div>
+      
+      <div className={styles.offersAndDealsLogin}>
+        <Login />
+      </div>
+      
     </div>
   );
 }
