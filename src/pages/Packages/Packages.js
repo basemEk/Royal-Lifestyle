@@ -335,27 +335,27 @@ export default function Packages() {
 
           <div className='package-form'>
             <div className='form-pack'>
-                <label className='label-2' for="name">Last Name</label><br/>
+                <label className='label-2 lbl-tablet' for="name">Last Name</label><br/>
                 <input type="text" className="form-input-width" name="name"/>
             </div>
 
             <div className='form-pack'>
-                <label className='label-2' for="telNo">Phone number:</label><br/>
+                <label className='label-2 lbl-tablet' for="telNo">Phone number:</label><br/>
                 <input type="number" className="form-input-width" id="telNo" name="telNo"/>
             </div>
 
             <div className='form-pack'>
-                <label className='label-2' for="date-picker">Departure Date</label><br/>
+                <label className='label-2 lbl-tablet' for="date-picker">Departure Date</label><br/>
                 <input type='date' className="form-input-width calendar-packages" name="date-picker" required/>
             </div>
 
             <div className='form-pack'>
-              <input type="checkbox" className='scales checkbox-label-2' name="scales"></input>
-              <label className='checkbox-label-2 departure-date' for="scales">I’m not sure of my Departure Date.</label>
+              <input type="checkbox" className='scales checkbox-label-2 lbl-tablet' name="scales"></input>
+              <label className='checkbox-label-2 departure-date' id="scales-text" for="scales">I’m not sure of my Departure Date.</label>
             </div>
 
             <div className='form-pack'>
-              <label className='label-2'># of Rounds per Golfers</label><br/>
+              <label className='label-2 lbl-tablet'># of Rounds per Golfers</label><br/>
               <select name="wgtmsr" className="form-input-width select-packages" id="wgtmsr">
                 <option value="actual value 1" className="dropdown" />
                 <option value="actual value 2" className="dropdown" />
@@ -364,7 +364,7 @@ export default function Packages() {
             </div>
             
             <div className='form-pack'>
-            <label className='label-2'>Rental Car Needed</label><br/>
+            <label className='label-2 lbl-tablet'>Rental Car Needed</label><br/>
               <select name="wgtmsr" className="form-input-width select-packages" id="wgtmsr">
                 <option value="actual value 1" className="dropdown" />
                 <option value="actual value 2" className="dropdown" />

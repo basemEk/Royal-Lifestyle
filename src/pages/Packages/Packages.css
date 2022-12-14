@@ -501,6 +501,32 @@ textarea {
       overflow-x: hidden;
   }
 
+  .form-pack>label {
+    padding-left: 0;
+    margin-bottom: -25px;
+    margin-left: 0;
+  }
+
+  .lbl-tablet{
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .textarea-div label {
+    position: absolute;
+    margin-left: 20px;
+    margin: -15px auto -15px 120px;
+}
+
+.scales {
+  margin-right: 0;
+
+}
+
+#scales-text {
+  transform: translateX(-500px);
+}
+
   #h4-golfPackage {
     width: 55%;
     margin: 2% auto;

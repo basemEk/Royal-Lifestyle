@@ -5,6 +5,7 @@ import greenDiv from "../../assets/tournaments/green-div-banner.png";
 import twoGolfSticks from "../../assets/tournaments/two-golf-sticks.png";
 import Login from "../Login/Login";
 
+
 export default function Tournaments() {
   return (
     <>
