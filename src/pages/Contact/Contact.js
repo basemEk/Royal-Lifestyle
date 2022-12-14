@@ -47,7 +47,10 @@ export default function Contact() {
             <input type="submit" value="SEND" />
           </div>
      </form>
-     <Login />
+     <div className={styles.contactLogin}>
+        <Login />
+     </div>
+     
      </div>
     </>
   )
