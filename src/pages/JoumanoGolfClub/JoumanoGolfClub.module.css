@@ -44,9 +44,14 @@
   margin: 20px 30%;
 }
 
-.jcImg {
+.clubDesignedContainer>.jcImg {
   display: block;
-  margin: 0 auto;
+  margin: 10px auto;
+  transform: translateX(-10px);
+}
+
+.jcImg {
+  margin-top: 150px !important;
 }
 
 .jcharlesVideoDiv {
@@ -214,6 +219,7 @@
 
   .greenBar {
     margin-bottom: 25px;
+    height: 60px;
   }
 
   .greenBarContent {
@@ -249,7 +255,13 @@
   }
 
   .bJoumanoTopImg {
-    height: 130px;
+    height: 110px;
+    background-size: cover;
+  }
+
+  .joumanoBanner {
+    background-size: cover;
+
   }
 
   .brownOmphPar {
@@ -312,13 +324,14 @@
 
 
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 998px) {
   body {
     overflow-x: hidden !important;
   }
 
   .greenBar {
     transform: translate(-150px, -40px);
+    /* margin: 0 -50px; */
   }
 
   .greenBarContent {
@@ -327,13 +340,12 @@
     display: flex;
     position: absolute;
     text-align: center;
-    margin: 0 -20px;
-    transform: translateX(-90px);
+    margin: 0 -20px auto -50px;
   }
 
   .greenBarContent > div {
-    margin-bottom: 10px !important;
-    transform: translateY(-15px);
+    margin: auto !important;
+    display: block !important;
   }
 
   .jcImg {
@@ -346,6 +358,10 @@
 
   .clubDesignedContainer > p {
     margin: 10px 60px
+  }
+
+  .bJoumanoTopImg {
+    height: 100%
   }
 
   .bJoumanoTopImg,
@@ -431,6 +447,10 @@
 @media (min-width: 2520px) {
   .bJoumanoTopImg {
     width: 100%;
+  }
+
+  .greenBar{
+    margin-bottom: 25px;
   }
 
   .box>div>label {
