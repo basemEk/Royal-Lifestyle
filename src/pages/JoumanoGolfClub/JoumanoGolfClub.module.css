@@ -167,11 +167,14 @@
 .box>div>textarea {
   width: 1050px;
   height: 200px;
+  display: block;
+  margin: 0 auto;
 }
 
 .box>div>label {
-  margin-top: 20px;
-  margin-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: -20px;
 }
 
 .formBtn>input {
@@ -193,6 +196,11 @@
   margin-right: 20px;
   background-color: white;
 }
+
+.email>h2 {
+  padding-top: 100px;
+}
+
 
 
 
@@ -286,6 +294,10 @@
     display: block;
     flex-wrap: nowrap;
     width: 300px;
+  }
+
+  .box>div>label {
+    margin-left: -15px;
   }
   
 
@@ -401,6 +413,10 @@
     display: block;
     width: 700px;
   }
+
+  .box>div>label {
+    margin-left: -15px;
+  }
   
   .box>div>input, .box>div>textarea {
     width: 700px;
@@ -418,7 +434,17 @@
   }
 
   .box>div>label {
-    transform: translateY(30px);
     margin-left: 20px;
   }
+
+  .email>h2 {
+    padding-top: 100px;
+  }
+
+  /* FORM */
+.box>div>textarea {
+  display: block;
+  margin: 0 auto;
+}
+
 }

@@ -2,7 +2,8 @@
   background-color: #000000;
 }
 
-.overlay-packages-container img {
+.overlay-packages-container>img {
+  position: relative;
   opacity: 0.5;
   height: 562px;
 }
@@ -15,6 +16,7 @@
 }
 
 .packages-caption h1 {
+  /* position: absolute; */
   font-size: 600 !important;
   text-align: center;
   color: rgb(241, 237, 237);
@@ -84,7 +86,6 @@
 
 .arrow {
   width: 30px;
-  margin-left: 15px;
   transform: translateY(-20px);
 }
 
@@ -371,10 +372,6 @@ textarea {
 
 .pack-1>.h4-grid-package-card, .pack-1>.p-grid-package-card {
   margin-right: 35px !important;
-}
-
-.arrow {
-  margin-left: 20px;
 }
 
   .overlay-packages-container img {

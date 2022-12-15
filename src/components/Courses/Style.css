@@ -75,7 +75,6 @@
     justify-content: center;
     margin: 0 auto;
 
-    
     background: black;
     overflow: hidden;
     background: linear-gradient(transparent, rgba(3, 105, 30, 0.8)), url('../../assets/field-img.png');
