@@ -102,7 +102,7 @@ export default function Feature() {
                             <p>Trump National Miami</p>
                             <h3>4.0-star <strong>HOTEL CLASS</strong></h3>
                             <div className='singleSlidearrow'>
-                                <img src={arrow} alt='arrow' className='arrow' />
+                                <img src={arrow} alt='arrow' className='features-arrow' />
                             </div>
                         </div>
                     </div>
@@ -119,7 +119,7 @@ export default function Feature() {
                             <p>Trump National Miami</p>
                             <h3>4.0-star <strong>HOTEL CLASS</strong></h3>
                             <div className='singleSlidearrow'>
-                                <img src={arrow} alt='arrow' className='arrow' />
+                                <img src={arrow} alt='arrow' className='features-arrow' />
                             </div>
                         </div>
                     </div>
@@ -136,7 +136,7 @@ export default function Feature() {
                             <p>Trump National Miami</p>
                             <h3>4.0-star <strong>HOTEL CLASS</strong></h3>
                             <div className='singleSlidearrow'>
-                                <img src={arrow} alt='arrow' className='arrow' />
+                                <img src={arrow} alt='arrow' className='features-arrow' />
                             </div>
                         </div>
                     </div>
@@ -153,7 +153,7 @@ export default function Feature() {
                             <p>Trump National Miami</p>
                             <h3>4.0-star <strong>HOTEL CLASS</strong></h3>
                             <div className='singleSlidearrow'>
-                                <img src={arrow} alt='arrow' className='arrow' />
+                                <img src={arrow} alt='arrow' className='features-arrow' />
                             </div>
                         </div>
                     </div>

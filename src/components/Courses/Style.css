@@ -162,17 +162,19 @@
 
 
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .singleSlideTwo>img {
         margin-top: 55px;
     }
 
+    .sliderOneContent>.we-have>h2 {
+        /* margin-top: 50px !important; */
+        transform: translateY(20px);
+    }
+    
     .sliderOneBodyBtn>button {
         width: auto;
-    }
-
-    .sliderOne {
-        margin-left: 20px
+        transform: translateY(-20px);
     }
 }
 

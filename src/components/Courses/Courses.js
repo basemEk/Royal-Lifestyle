@@ -91,10 +91,10 @@ export default function Courses() {
                 <Slider className="sliderOne" {...settings}
                     ref={c => (Slider = c)}>
                 
-                    <div className=''>
+                    <div className='sliderOne'>
                         <div className='sliderOneContent'>
                             {/**Title */}
-                            <section className=''>
+                            <section className='we-have'>
                                 <h2>WE HAVE TITLE HERE </h2>
                             </section>
                             {/**Text */}
@@ -115,7 +115,7 @@ export default function Courses() {
                     <div className='sliderOne'>
                         <div className='sliderOneContent'>
                             {/**Title */}
-                            <section className=''>
+                            <section className='we-have'>
                                 <h2>WE HAVE TITLE HERE </h2>
                             </section>
                             {/**Text */}
@@ -135,7 +135,7 @@ export default function Courses() {
                     <div className='sliderOne'>
                         <div className='sliderOneContent'>
                             {/**Title */}
-                            <section className=''>
+                            <section className='we-have'>
                                 <h2>WE HAVE TITLE HERE </h2>
                             </section>
                             {/**Text */}
