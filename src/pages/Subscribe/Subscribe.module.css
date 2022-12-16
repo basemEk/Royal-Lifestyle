@@ -228,3 +228,10 @@ input[type=number]
         margin-bottom: 100px;
     }
 }
+
+
+@media (min-width: 2520px) {
+    .banner {
+        width: 100%;
+    }
+}

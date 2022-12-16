@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Subscribe.module.css'
-import subscribeBanner from '../../assets/offers&dealsbanner.png'
+import subscribeBanner from '../../assets/subscribe-banner.png'
 import VIP from '../../assets/VIPicon.png'
 import Login from '../Login/Login'
 
