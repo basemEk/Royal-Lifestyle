@@ -261,13 +261,6 @@
 
 
 
-@media(max-width: 800px) {
-    .tourImg {
-        /* width: 800px; */
-        height: 220px;
-    }
-}
-
 
 
 
@@ -282,7 +275,7 @@
         height:100%;
     }
 
-    .tourImg{
+    .tourImg {
         width:100%;
     }
 

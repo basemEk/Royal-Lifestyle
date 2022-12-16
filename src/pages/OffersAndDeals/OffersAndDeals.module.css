@@ -198,3 +198,13 @@
         right: 76px;
     }
 }
+
+
+
+
+@media (min-width: 2520px) {
+    .offersTopImg {
+        width: 100%;
+        background-size: cover;
+    }
+}
