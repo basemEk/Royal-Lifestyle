@@ -37,7 +37,7 @@ export default function Offers_Deals() {
       </div>
 
       <div className={styles.golfPackageNames}>
-      <Link to="/package-details" style={{textDecoration: 'none'}}>
+      <Link to="/submit-quote" style={{textDecoration: 'none'}}>
         <div className={styles.pack-1}>
         <div className={styles.overlayPrice}>
             <img src={gridImgPackages} className={styles.packImg} alt="pack-1" />

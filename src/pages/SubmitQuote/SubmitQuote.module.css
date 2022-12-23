@@ -289,11 +289,11 @@ input[type=date]:focus::-webkit-datetime-edit {
       .textBlock {
         right: 55px;
         bottom: 112px;
-    }
+      }
 
-    .contentsNoImg {
-        margin-bottom: 50px;
-    }
+      .contentsNoImg {
+          margin-bottom: 50px;
+      }
 
     .golfPackageNames {
         flex-direction: column;
@@ -394,6 +394,20 @@ input[type=date]:focus::-webkit-datetime-edit {
         margin-bottom: 25px;
         color: #454545;
       }
+
+      .included> p {
+        color: #717171;
+        line-height: 2;
+        margin-right: 30%;
+    }
+
+    .similarh4 {
+        top: 18%;
+        left: 15%;
+        margin: 0 auto;
+        text-align: center;
+        z-index: -1;
+    }
 
       .textBlock {
         position: absolute;
