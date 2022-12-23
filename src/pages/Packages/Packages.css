@@ -613,6 +613,13 @@ textarea {
     width: 100%;
   }
 
+  .packages-caption {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    /* transform: translate(-50%, -90%); */
+  }
+
   .pack-1-slider-content {
     width: 460px;
     margin: 0 auto;
