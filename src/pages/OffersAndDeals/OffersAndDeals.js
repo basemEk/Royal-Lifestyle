@@ -17,7 +17,7 @@ export default function Offers_Deals() {
           alt="offers banner"
           // style={{width: '1720px'}}
         />
-        <div className={styles.lightGreenBanner}>
+        <div className={styles.lightGreenBannerDeals}>
           <h1>Offers & Deals</h1>
           <p>Flash Offers, Gift Vouchers, Golf Getaways and more!</p>
         </div>

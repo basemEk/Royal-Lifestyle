@@ -1,4 +1,4 @@
-.lightGreenBanner {
+.lightGreenBannerDeals {
     font-family: didot;
     text-align: center;
     position: absolute;
@@ -140,14 +140,19 @@
         height: 130px;
     }
 
-    .lightGreenBanner {
+    .lightGreenBannerDeals {
+        margin-top: -33%;
         width: 375px;
         z-index: -1;
-      }
+    }
 
-      .lightGreenBanner p {
-        font-size: medium;
-      }
+    .lightGreenBannerDeals>h1 {
+      font-size: 1.5rem;
+    }
+
+    .lightGreenBannerDeals>p {
+      font-size: 0.99rem;
+    }
 
     .exclusive {
         margin-top: 45%;
@@ -175,9 +180,9 @@
         height: 230px;
     }
     
-    .lightGreenBanner {
+    .lightGreenBannerDeals {
         margin-top: 20px;
-        top: 40%;
+        top: 33%;
         left: 50%;
         color: white;
         background-color: #148E38;
@@ -185,8 +190,17 @@
         z-index: 1000;
     }
 
+    .lightGreenBannerDeals>h1 {
+        font-size: 1.5rem;
+    }
+  
+    .lightGreenBannerDeals>p {
+        font-size: 0.99rem;
+    }
+
     .exclusive {
-        margin-top: 15%;
+        margin-top: 22%;
+        margin-bottom: 10%;
     }
 
     .exclusive>p {
@@ -207,4 +221,27 @@
         width: 100%;
         background-size: cover;
     }
+
+    .lightGreenBannerDeals {
+        margin-top: 20px;
+        top: 20%;
+        left: 50%;
+        color: white;
+        background-color: #148E38;
+        opacity: 0.41;
+        z-index: 1000;
+    }
+
+    .lightGreenBannerDeals>h1 {
+        font-size: 1.5rem;
+    }
+  
+    .lightGreenBannerDeals>p {
+        font-size: 0.99rem;
+    }
+
+    /* .exclusive {
+        margin-top: 22%;
+        margin-bottom: 10%;
+    } */
 }
