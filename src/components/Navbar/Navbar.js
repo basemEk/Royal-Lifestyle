@@ -45,7 +45,7 @@ function NavbarItem() {
           <a href="/offers-deals">OFFERS</a>
           <a href="/contact">CONTACT US</a>
           <a href="/subscribe" id="subscribe-nav">SUBSCRIBE</a>
-          <a href="/login" onClick={handleLogin}>
+          <a href="#login" onClick={handleLogin}>
             LOGIN
           </a>
         </div>
@@ -91,7 +91,7 @@ function NavbarItem() {
                 <Nav.Link href="/offers-deals">OFFERS</Nav.Link>
                 <Nav.Link href="/contact">CONTACT US</Nav.Link>
                 <Nav.Link href="/subscribe" id='sub'>SUBSCRIBE</Nav.Link>
-                <Nav.Link href="/login" onClick={handleLogin}>LOGIN</Nav.Link>
+                <Nav.Link href="#login" onClick={handleLogin}>LOGIN</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

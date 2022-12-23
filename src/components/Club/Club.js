@@ -13,7 +13,6 @@ export default function Club() {
                 <h1>Jumano Golf Club</h1>
                 <p>
                     making it look like readable English. Many desktop publishing packages and web page editors now u
-                    <br />
                     making it look like readable English. Many desktop publishing packages and web page editors now u
                 </p>
             </div>

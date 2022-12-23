@@ -121,7 +121,19 @@
 
 
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+    .loginWrapperHome {
+        display: block;
+        z-index: 1000;
+        position: absolute;
+        right: 0;
+        top: -300px;
+        /* box-shadow: 4px 3px 8px 1px rgba(0,0,0,0.75); */
+        height: 500px;
+        margin-right: 20px;
+        background-color: white;
+    }
+
     .bannerSlider {
         padding: 0;;
     }
@@ -138,20 +150,20 @@
 
     .backgroundImageSliderContent>h1 {
         margin-top: 25px;
-        font-size: 30px;
+        font-size: 45px;
         color: white;
         text-align: center;
         font-family: sans-serif;
     }
 
     .backgroundImageSliderContent>button {
-        border: 1px solid rgb(220, 216, 216);
+        border: 1px solid #ffff;
         background-color: transparent;
         color: white;
-        transform: translateX(-260px);
-        cursor: pointer;
+        transform: translateX(-290px);
         width: 40%;
-        margin: auto 0;
+        display: block;
+        margin: auto 7%;
     }
 
 }
@@ -160,19 +172,20 @@
 
 
 @media (min-width: 768px) and (max-width: 1520px) {
+
+    .backgroundImageSliderContent>h1 {
+        margin-top: 45px !important;
+    }
     
     .backgroundImageSliderContent>button {
         border: 1px solid rgb(220, 216, 216);
         background-color: transparent;
         color: white;
-        transform: translateX(-620px);
+        transform: translateX(-450px);
         cursor: pointer;
-        width: 40%;
-        margin: auto 0;    
-    }
-
-    .backgroundImageSliderContent>button {
-        margin: 0;
+        width: 20%;
+        margin: auto 0;  
+        display: block;  
     }
 
 }

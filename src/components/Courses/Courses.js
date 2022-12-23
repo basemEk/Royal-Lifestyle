@@ -162,9 +162,8 @@ export default function Courses() {
 
             {/**Slider Two */}
 
-            <Slider className='sliderTwo'
-                ref={c => (Slider = c)}
-                {...settingsSlidertwo}>
+            <Slider className='sliderTwo' ref={c => (Slider = c)} {...settingsSlidertwo}>
+                
                 <div className='singleSlideTwo'>
                     <img src={Group18} alt='Two' className='Two' />
                 </div>

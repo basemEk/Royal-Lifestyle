@@ -136,19 +136,17 @@ body {
 
 
 
-
 /* Landscape phones */
 @media (max-width: 767px) {
-
   .mobile-version {
     display: block;
   }
   
   #logo {
     display: block;
-    margin-left: -120px;
+    margin: 0 auto;
     width: 60px;
-    transform: translateX(-100px) !important;
+    transform: translateX(-216px) !important;
   }
   
   body {
@@ -194,6 +192,7 @@ body {
    }
 
 }
+
 
 
 

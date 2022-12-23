@@ -158,20 +158,41 @@
 
 
 @media (max-width: 768px) {
-    .singleSlideTwo>img {
-        margin-top: 55px;
+
+    /* .singleSlide {
+        display: block;
+        margin: 0 auto;
+        margin-left: 0;
+    } */
+
+    .clap-p p {
+        font-weight: 300;
     }
+
+    .footerBannerImage>img {
+        transform: translateY(50px);
+        width: 100%;
+        height: 50%;
+        margin: 10px auto;
+    }
+
+    /* .singleSlideTwo>img {
+        margin-top: 55px;
+    } */
 
     .sliderOneContent>.we-have>h2 {
         /* margin-top: 50px !important; */
         transform: translateY(20px);
     }
+
+
     
     .sliderOneBodyBtn>button {
         width: auto;
         transform: translateY(-20px);
     }
 }
+
 
 
 

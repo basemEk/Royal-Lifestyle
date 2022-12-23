@@ -181,6 +181,7 @@ section p h3 {
 
 @media (max-width: 767px) { 
     .trophy-h1-p p {
+        font-weight: 300;
         width: 150%;
     }
 

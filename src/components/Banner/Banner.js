@@ -55,7 +55,11 @@ export default function Banner() {
           </Slider>
         </div>
       </div>
+
+      <div className="loginWrapperHome">
         <Login />
+      </div>
+      
     </div>
   );
 }

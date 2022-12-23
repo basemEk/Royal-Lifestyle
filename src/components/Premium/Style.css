@@ -77,6 +77,7 @@
     .par-1 {
         text-align: center;
         padding: auto 10px !important;
+        font-weight: 300;
     }
 
     .crown-h1-p h1, .par-1 {

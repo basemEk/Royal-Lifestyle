@@ -5,19 +5,31 @@ import gridImgPackages from "../../assets/grid-img-packages.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import food from '../../assets/package-details-assets/food.png'
+import golfBallTwo from '../../assets/package-details-assets/golf-ball.png'
+import greenBg from '../../assets/package-details-assets/green-bg.png'
+import laptopTwo from '../../assets/package-details-assets/laptop.png'
+import shoeTwo from '../../assets/package-details-assets/shoe.png'
+import swiming from '../../assets/package-details-assets/swiming-pool.png'
+import tshirtTwo from '../../assets/package-details-assets/tshirt.png'
+import wifiTwo from '../../assets/package-details-assets/wifi.png'
+import flag from '../../assets/package-details-assets/flag-golf.png'
+import Login from "../Login/Login";
+
 import airplane from "../../assets/package-details-icons/aireplane.png";
 import dumbles from "../../assets/package-details-icons/dumbles.png";
-import fastFood from "../../assets/package-details-icons/fast-food.png";
-import free from "../../assets/package-details-icons/free.png";
-import golfFlag from "../../assets/package-details-icons/golf-flag.png";
-import golfBall from "../../assets/package-details-icons/golfball.png";
-import laptop from "../../assets/package-details-icons/laptop.png";
 import restaurant from "../../assets/package-details-icons/restaurant.png";
-import shoe from "../../assets/package-details-icons/shoe.png";
-import swimingPool from "../../assets/package-details-icons/swimingpool.png";
-import tShirt from "../../assets/package-details-icons/t-shirt.png";
-import wifi from "../../assets/package-details-icons/wifi.png";
-import Login from "../Login/Login";
+import free from "../../assets/package-details-icons/free.png";
+// import fastFood from "../../assets/package-details-icons/fast-food.png";
+// import golfFlag from "../../assets/package-details-icons/golf-flag.png";
+// import golfBall from "../../assets/package-details-icons/golfball.png";
+// import laptop from "../../assets/package-details-icons/laptop.png";
+// import shoe from "../../assets/package-details-icons/shoe.png";
+// import swimingPool from "../../assets/package-details-icons/swimingpool.png";
+// import tShirt from "../../assets/package-details-icons/t-shirt.png";
+// import wifi from "../../assets/package-details-icons/wifi.png";
+
+
 
 export default function PackageDetails() {
   const settingsNoModules = {
@@ -188,7 +200,7 @@ export default function PackageDetails() {
                     course.
                   </p>
 
-                  <div className={styles.PackagesIcons}>
+                  {/* <div className={styles.PackagesIcons}>
                     <div>
                       <img src={airplane} alt="airplane" />
                     </div>
@@ -225,7 +237,48 @@ export default function PackageDetails() {
                     <div>
                       <img src={wifi} alt="wifi" />
                     </div>
+                  </div> */}
+
+                  <div className={styles.PackagesIcons}>
+                    <div>
+                      <img src={airplane} alt="airplane" />
+                    </div>
+                    <div>
+                      <img src={dumbles} alt="dumbles" />
+                    </div>
+                    <div>
+                      <img src={food} alt="fast food" />
+                    </div>
+                    <div>
+                      <img src={free} alt="free access" />
+                    </div>
+                    <div>
+                      <img src={greenBg} alt="green background" />
+                      <img src={flag} alt="golf flag" />
+                    </div>
+                    <div>
+                      <img src={golfBallTwo} alt="golf ball" />
+                    </div>
+                    <div>
+                      <img src={laptopTwo} alt="laptop" />
+                    </div>
+                    <div>
+                      <img src={restaurant} alt="restaurant" />
+                    </div>
+                    <div>
+                      <img src={shoeTwo} alt="shoe" />
+                    </div>
+                    <div>
+                      <img src={swiming} alt="swiming pool" />
+                    </div>
+                    <div>
+                      <img src={tshirtTwo} alt="t shirt" />
+                    </div>
+                    <div>
+                      <img src={wifiTwo} alt="wifi" />
+                    </div>
                   </div>
+
                 </div>
               </div>
             </div>
