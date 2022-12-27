@@ -220,7 +220,7 @@ input[type=date]:focus::-webkit-datetime-edit {
     }
 
     .similarh4 {
-        top: 35%;
+        top: 22%;
         left: 11%;
         margin: 0 auto;
         text-align: center;
@@ -317,7 +317,7 @@ input[type=date]:focus::-webkit-datetime-edit {
 
 @media (min-width: 768px) and (max-width: 998px) {
     .similarh4 {
-        top: 40%;
+        top: 30%;
         left: 18%;
         margin: 0 auto;
         text-align: center;

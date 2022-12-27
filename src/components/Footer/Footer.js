@@ -12,8 +12,12 @@ export default function Footer() {
             {/**Subsicrebtion */}
             <section>
                 <div className='footerSubsicrebtion'>
-                    <h1>Subsicrebe to our Newsletter</h1>
-                    <input type={'email'} placeholder='Enter your email' />
+                    <h1>WOULD YOU LIKE TO RECEIVE EXCLUSIVE OFFERS?</h1>
+                    <p>Subscribe now to our newsletter to receive the best offers and discounts only available to subscribers. With Golfers you can access to the best golf clubs at prices that you won’t find anywhere else.</p>
+                       <div className='emailSubmit'>
+                            <input type={'email'} placeholder='Enter your email' className='subscribeEmail' />
+                            <input type='submit' value='Subscribe' className='subscribeBtn' />
+                       </div> 
                 </div>
             </section>
             {/**Links */}

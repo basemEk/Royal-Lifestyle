@@ -51,6 +51,14 @@
     color: #4E4E4E;
 }
 
+.forgetPw>a {
+    text-decoration: none;
+}
+
+.signUpCheck>a {
+    text-decoration: none;
+}
+
 .LoginBtn {
     margin: 5% auto;
     padding: 5px 20px;
@@ -85,14 +93,52 @@ input::placeholder {
 
 @media (max-width: 768px) {
     .loginWrapper {
-        display: none;
-        z-index: 1000;
-        position: absolute;
-        right: 0;
+        margin: 0 auto;
         top: 310px;
-        /* box-shadow: 4px 3px 8px 1px rgba(0,0,0,0.75); */
-        height: 500px;
-        margin-right: 20px;
-        background-color: white;
+        box-shadow: 4px 3px 8px 1px rgb(0 0 0 / 75%);
+    }
+
+    .LoginForm>label {
+        padding-left: 50px;
+    }
+
+    .forgetPw>a {
+        text-decoration: none;
+    }
+
+    .signUpCheck>a {
+        text-decoration: none;
+    }
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .loginWrapper {
+        height: 540px;
+        margin: 0 auto;
+        top: 310px;
+        box-shadow: 4px 3px 8px 1px rgb(0 0 0 / 75%);
+    }
+
+    .LoginForm>label {
+        padding-left: 150px;
+    }
+
+    .forgetPw {
+        margin-right: 150px;
+    }
+
+    .forgetPw>a {
+        text-decoration: none;
+    }
+
+    .signUpCheck>a {
+        text-decoration: none;
+    }
+
+    .LoginBtn {
+        transform: none;
     }
 }

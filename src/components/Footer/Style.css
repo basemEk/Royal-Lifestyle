@@ -8,25 +8,42 @@
     color: white;
 }
 
+.footerSubsicrebtion>div>input {
+    display: inline;
+    margin-right: 20px;
+}
+
 .footerSubsicrebtion>h1 {
     font-size: x-large;
     color: white;
-    font-family: sans-serif;
+    font-family: didot;
     margin-bottom: 20px;
     margin-top: 30px;
 }
 
-.footerSubsicrebtion>input {
+.footerSubsicrebtion>p {
+    width: 50%;
+    margin: 2% auto;
+    text-align: center;
+    color: rgb(174, 171, 171)
+}
+
+.footerSubsicrebtion>div>.subscribeEmail {
     width: 30%;
     height: 50px;
-    background-color: #45454500;
     text-align: center;
-    color: white;
-    outline: none;
     border: 1px solid #45454534;
+    color: white;
     background-color: #454545cb;
     margin-bottom: 30px;
-    opacity: 80%;
+    outline: #7e6d44;
+}
+
+.footerSubsicrebtion>div>.subscribeBtn {
+    color: rgb(221, 219, 219);
+    background-color: #454545cb;
+    padding: 0.85% 1.5%;
+    border: none;
 }
 
 .footerSubsicrebtion>input::placeholder {
@@ -95,7 +112,7 @@
 
 
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .footerWrapper {
         width: 100%;
     }
@@ -132,15 +149,31 @@
     .footerPrivecy {
         width: auto;
     }
-    .footerSubsicrebtion>input {
-        width: 70%;
+    
+    .footerSubsicrebtion>.emailSubmit {
+        display: flex;
+        flex-direction: column;
     }
-    .footerSubsicrebtion>h1 {
-        margin-bottom: 30px;
-        font-size: large;
+    
+    .footerSubsicrebtion>p {
+        width: 70%;
+        margin: 2% auto 5% auto;
+    }
+    
+    .footerSubsicrebtion>div>.subscribeEmail {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .footerSubsicrebtion>div>.subscribeBtn {
+        margin: 5% auto;
+        padding: 3% 15%;
     }
 
 }
+
+
+
 
 
 
@@ -187,20 +220,42 @@
         width: auto;
     }
 
-    .footerSubsicrebtion>input {
-        width: 70%;
+    .footerSubsicrebtion>div>.subscribeEmail {
+        width: 60%;
+    }
+    
+    .footerSubsicrebtion>div>.subscribeBtn {
+        padding: 2% 8%;
     }
 
-    .footerSubsicrebtion>h1 {
-        margin-bottom: 30px;
+}
+
+
+
+
+
+
+@media (min-width: 2520px) {
+    .footerSubsicrebtion>p {
+        width: 35%;
+        margin: 2% auto;
+        text-align: center;
+        color: rgb(174, 171, 171);
     }
 
-    /* .footerLogoDev{
-        width: 40px;
-        height: 30px;
-        border-radius: 50%;
-        padding: 20px;
-    } */
+    .footerSubsicrebtion>div>.subscribeBtn {
+        color: rgb(221, 219, 219);
+        background-color: #454545cb;
+        padding: 0.5% 1.5%;
+        border: none;
+    }
 
+    .footerItems ul {
+        justify-content: center;
+        gap: 10%;
+    }
 
+    .footerPrivecy {
+        word-spacing: 5px;
+    }
 }
