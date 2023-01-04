@@ -31,7 +31,7 @@ function NavbarItem() {
           <a href="/">HOME</a>
           <a href="/our-story">OUR STORY</a>
           <a href="/our-packages">GOLF PACKAGES</a>
-          <a href="/joumano-club">JOUMANO GOLF CLUB
+          <a href="#">JOUMANO GOLF CLUB
           <ul>
               <li><a href="/joumano-club">JOUMANO GOLF CLUB</a></li>
               <li><a href="https://dubailink.thegoproject.me/">Dubai Link</a></li>

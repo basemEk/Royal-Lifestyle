@@ -35,7 +35,7 @@ export default function Banner() {
             <div className="backgroundImageSlider">
               <section className="backgroundImageSliderContent">
                 <h1>Get a Unique Golf Experience</h1>
-                <button>BOOK TEE TIME</button>
+                <button>BOOK TEA TIME</button>
               </section>
             </div>
 

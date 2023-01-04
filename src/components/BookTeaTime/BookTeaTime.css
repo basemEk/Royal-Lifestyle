@@ -1,0 +1,163 @@
+  .whiteRec {
+    display: flex;
+    position: relative;
+    color: green;
+    background-color: white;
+    padding: 0.1%;
+    cursor: pointer;
+    border: 1px solid green;
+    width: 160px;
+    height: 35px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .bookingImg {
+    background-color: #FFF;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 50px;
+    right: 195px;
+    width: 50px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .reserve {
+    position: fixed;
+    top: 70%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+  }
+
+  .bookArr {
+    width: 30px;
+  }
+
+  /* 
+  .icon2-position{
+    float: right;
+    position: fixed;
+  } 
+  
+  .icon2-position{
+    position: fixed;
+    bottom: 200px;
+    right: 25px;
+    z-index: 20;
+  }
+  .icon2-style{
+    background-color: #FFF;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .icon2-style:hover{
+    animation: none;
+    background: #fff;
+    background-color: #90962B;
+    border: 2px solid green;
+  }  */
+
+
+
+
+  @media (max-width: 768px) {
+    .whiteRec {
+      display: flex;
+      position: relative;
+      color: green;
+      background-color: white;
+      padding: 0.1%;
+      cursor: pointer;
+      border: 1px solid green;
+      width: 120px;
+      height: 25px;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.6rem;
+    }
+  
+  
+    .bookingImg {
+      background-color: #FFF;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      height: 30px;
+      right: 195px;
+      width: 30px;
+      color: #fff;
+      cursor: pointer;
+    }
+  
+    .reserve {
+      position: fixed;
+      top: 70%;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+    }
+  
+    .bookArr {
+      width: 20px;
+    }
+  }
+
+
+
+
+
+  @media (min-width: 768px) and (max-width: 998px) {
+
+    .icon2-style {
+      height: 30px;
+      width: 30px;
+    }
+
+    .whiteRec {
+      display: flex;
+      position: relative;
+      color: green;
+      background-color: white;
+      padding: 0.1%;
+      cursor: pointer;
+      border: 1px solid green;
+      width: 120px;
+      height: 25px;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  
+    .bookingImg {
+      background-color: #FFF;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      height: 40px;
+      right: 195px;
+      width: 40px;
+      color: #fff;
+      cursor: pointer;
+    }
+  
+    .reserve {
+      position: fixed;
+      top: 70%;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+    }
+  
+    .bookArr {
+      width: 20px;
+    }
+
+  }

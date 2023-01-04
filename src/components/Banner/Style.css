@@ -65,7 +65,7 @@
 }
 
 .backgroundImageSliderContent>button {
-    border: 1px solid rgb(220, 216, 216);
+    border: 2px solid rgb(220, 216, 216);
     padding: 10px;
     width: 20%;
     background-color: transparent;
@@ -78,8 +78,8 @@
     color: black;
     background-color: aliceblue;
     opacity: 40%;
-    border: 1px solid black;
-    font-weight: 300;
+    font-weight: bold;
+    border: 2px solid black;
 }
 
 .dotsStyleBanner ul {
