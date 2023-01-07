@@ -25,7 +25,7 @@
 }
 
 .backgroundImageSlider {
-    background: url('../../images/imageTrophySlider.jpg');
+    background: url('../../assets/new-banner-landing.png') !important;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -195,6 +195,10 @@
 @media (min-width: 2520px) {
     .backgroundImageSliderContent>h1 {
         font-family: didot;
+    }
+
+    .backgroundImageSlider {
+        background-size: cover !important;
     }
 }
 

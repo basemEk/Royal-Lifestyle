@@ -1,6 +1,5 @@
 import React from 'react'
 import './Packages.css'
-import { Link } from 'react-router-dom';
 import bannerPackages from '../../assets/banner-home.png'
 import arrowGreenPackages from '../../assets/arrow-green-packages.png'
 import gridImgPackages from '../../assets/grid-img-packages.png'
@@ -114,9 +113,9 @@ export default function Packages() {
         <div className='golf-package-names'>
           {/* {packs.map(pack, index) => { */}
               <div className='pack-1'>
-              <Link to="/package-details">
+              <a href="/package-details">
                 <img src={gridImgPackages} className="pack-img" alt="pack-1"/>
-              </Link>
+              </a>
                 <h4>GOLF PACKAGE NAME</h4>
                 <p id="enjoy">Enjoy 2 nights’ accommodations at Fairmont Sonoma Mission Inn and 1 round of golf at Sonoma Golf Club.</p>
                 <p id="explore">Explore</p>

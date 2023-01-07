@@ -19,6 +19,7 @@ import SubmitQuote from './pages/SubmitQuote/SubmitQuote';
 import BookTeaTime from './components/BookTeaTime/BookTeaTime';
 
 
+
 function App() {
 
   return (
@@ -26,6 +27,7 @@ function App() {
       <Navbar />
 
       <ScrollToTop />
+
       <BookTeaTime />
       
       <Routes>
@@ -38,7 +40,9 @@ function App() {
         <Route path="/offers-deals" element={<OffersAndDeals />} />
         <Route path="/package-details" element={<PackageDetails />} />
         <Route path="/subscribe" element={<Subscribe />} />
+
         <Route path="/contact" element={<Contact />} />
+
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/reset-password" element={<Reset />} />
         <Route path="/submit-quote" element={<SubmitQuote />} />

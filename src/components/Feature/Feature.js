@@ -13,49 +13,48 @@ import Mariot from '../../assets/mariot-hotel.png'
 
 
 export default function Feature() {
-    var settingsService = {
+    var settings = {
         dots: true,
-        infinite: true,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        speed: 2000,
+        infinite: false,
+        speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
-        arrows: false,
-        beforeChange: 'beforeChange',
-        dotsClass: 'dotsFStyle',
+        initialSlide: 0,
         responsive: [
-            {
-              breakpoint: 768,
-              settings: {
-                arrows: false,
-                slidesToShow: 2,
-              },
-            },
-            {
-                breakpoint: 801,
-                settings: {
-                  arrows: false,
-                  slidesToShow: 1,
-                },
-              },
-            {
-              breakpoint: 481,
-              settings: {
-                arrows: false,
-                slidesToShow: 1,
-              },
-            },
-          ],
-        //---------------------------------Indicators
-        appendDots: dots => (
-            <div>
-                <ul> {dots} </ul>
-            </div>
-        ),
-        customPaging: i => (<div></div>)
-
-    };
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 800,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      };
 
     // const next = () => {
     //     Slider.slickNext();
@@ -89,7 +88,7 @@ export default function Feature() {
 
                 <Slider className='SliderFeature'
                     ref={c => (Slider = c)}
-                    {...settingsService}>
+                    {...settings}>
                     <div className='singleSlidecontainer'>
                         <div className='singleSlide'  >
                             <div className='singleSlideIMage'>
@@ -156,6 +155,10 @@ export default function Feature() {
                                 <img src={arrow} alt='arrow' className='features-arrow' />
                             </div>
                         </div>
+                    </div>
+
+                    <div className='view-all-card'>
+                        <a href="/all-cards"><h4>View All Cards</h4></a>
                     </div>
                 </Slider>
                 <div>

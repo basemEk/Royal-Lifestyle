@@ -1,14 +1,13 @@
-.divFeature {
-    width: 80%;
-    margin: auto;
-    margin-top: 10px;
-    padding-right: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-content: center;
-    justify-content: space-around;
-}
+/* .slick-slider.slick-initialized {
+    width: 100vw;
+  } */
+  
+  .slick-arrow.slick-prev {
+    background: #568623;
+  }
+  .slick-arrow.slick-next {
+    background: #568623;
+  }
 
 .SliderFeature {
     display: flex;
@@ -22,6 +21,15 @@
     margin: auto;
 }
 
+.divFeature {
+    width: 80%;
+    margin: auto auto 6% auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
 
 .dotsFStyle ul li {
     color: gray;
@@ -29,7 +37,7 @@
 }
 
 .dotsFStyle ul li.slick-active {
-    color: green;
+    color: green !important;
 }
 
 
@@ -47,9 +55,40 @@
 }
 
 
+.view-all-card {
+    height: 496.4px;
+    width: 324px !important;
+    border: 1px solid gray;
+    margin-top: 20px;
+    margin-left: 10%;
+    padding: 170px 0;
+}
+
+.view-all-card>a {
+    text-align: center;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 16px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: green;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 .singleSlide {
     background-color: white;
-    margin-left: 50px;
     position: relative;
     border-style: groove;
     border-color: #a9a2a20f;
@@ -63,9 +102,10 @@
 }
 
 .singleSlide {
+    margin: 5% auto 15% auto;
     width: auto;
     max-width: fit-content;
-    max-width: 100%;
+    max-width: 80%;
     max-height: 100%;
     object-fit: fill;
     object-fit: cover;
@@ -171,9 +211,8 @@
     }
 
     .singleSlide {
-        display: block;
-        margin: 0 auto;
-        margin-left: 0;
+        margin-left: auto;
+        margin-bottom: 15%;
     }
 
     .trophy-h1-p {
@@ -202,6 +241,14 @@
         .FeatureHeading>p {
             padding: 0;
         }
+
+        .view-all-card {
+            height: 496.4px;
+            width: 250px !important;
+            border: 1px solid gray;
+            margin-top: 20px;
+            /* margin-left: 10%; */
+        }
 }
 
 
@@ -209,6 +256,9 @@
 
 
 @media (min-width: 768px) and (max-width: 998px) {
+    .view-all-card {
+        height: 476.4px;
+    }
 
     .trophy-h1-p {
         transform: translateY(-150px);
@@ -221,6 +271,11 @@
 
     .FeatureHeading>p {
         padding: 0 2%;
+    }
+
+    .singleSlide {
+        margin-left: auto;
+        margin-bottom: 15%;
     }
 
       .singleSlideIMagePrice p {
@@ -240,6 +295,8 @@
         width: 100% !important;
         height: 80% !important;
       }
+
+      
       
     }
 
@@ -254,6 +311,7 @@
         }
 
         .divFeature {
+            display: block;
             margin: 5% auto;
         }
 
@@ -263,6 +321,11 @@
 
         .SliderFeature {
             width: 60%;
+        }
+        .singleSlide {
+            margin: 0 auto;
+            display: block;
+            /* margin-left: inherit !important */
         }
     
         .singleSlideIMagePrice {
