@@ -4,12 +4,23 @@ import Group25 from "../../images/Group 4125.png";
 import arrowGreenPackages from "../../assets/arrow-green-packages.png";
 import gridImgPackages from "../../assets/grid-img-packages.png";
 import OffersAndDealsBnr from "../../assets/offers&dealsbanner.png";
+import golfBallBook from '../../assets/golf-ball-with-dents.png'
+import bookingArrow from '../../assets/arrow-green-packages.png'
+import BookTeaTime from '../../components/BookTeaTime/BookTeaTime'
 import { Link } from 'react-router-dom';
 import Login from "../Login/Login";
+
 
 export default function Offers_Deals() {
   return (
     <div className={styles.dealsWrapper}>
+
+        <BookTeaTime
+          imgBooking = {golfBallBook}
+          book = "BOOK TEA-TIME"
+          bookArr = {bookingArrow}
+         />
+
       <div className={styles.dealsBanner}>
         <img
           src={OffersAndDealsBnr}

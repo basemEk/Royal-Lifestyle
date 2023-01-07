@@ -3,11 +3,21 @@ import styles from './Subscribe.module.css'
 import subscribeBanner from '../../assets/subscribe-banner.png'
 import VIP from '../../assets/VIPicon.png'
 import Login from '../Login/Login'
+import golfBallBook from '../../assets/golf-ball-with-dents.png'
+import bookingArrow from '../../assets/arrow-green-packages.png'
+import BookTeaTime from '../../components/BookTeaTime/BookTeaTime'
 
 export default function Subscribe() {
   return (
     <>
      <div>
+
+     <BookTeaTime
+          imgBooking = {golfBallBook}
+          book = "BOOK TEA-TIME"
+          bookArr = {bookingArrow}
+         />
+
         <div className={styles.banner}>
             <img src={subscribeBanner} alt="subscribe banner" className={styles.banner}/>
             <div className={styles.membership}>

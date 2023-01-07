@@ -18,6 +18,10 @@ import swimingPool from "../../assets/package-details-icons/swimingpool.png";
 import tShirt from "../../assets/package-details-icons/t-shirt.png";
 import wifi from "../../assets/package-details-icons/wifi.png";
 import Login from "../Login/Login";
+import golfBallBook from '../../assets/golf-ball-with-dents.png'
+import bookingArrow from '../../assets/arrow-green-packages.png'
+import BookTeaTime from '../../components/BookTeaTime/BookTeaTime'
+
 
 export default function SubmitQuote() {
   const settingsNoModules = {
@@ -58,6 +62,13 @@ export default function SubmitQuote() {
   return (
     <>
       <div className={styles.detailsWrapper}>
+
+      <BookTeaTime
+          imgBooking = {golfBallBook}
+          book = "BOOK TEA-TIME"
+          bookArr = {bookingArrow}
+         />
+
         <div className={styles.golfOffer}>
           <div className={styles.similarOffers}>
             <h4 className={styles.similarh4}>GOLF OFFER NAME</h4>

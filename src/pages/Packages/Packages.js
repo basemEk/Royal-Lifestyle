@@ -7,6 +7,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Login from '../Login/Login'
+import golfBallBook from '../../assets/golf-ball-with-dents.png'
+import bookingArrow from '../../assets/arrow-green-packages.png'
+import BookTeaTime from '../../components/BookTeaTime/BookTeaTime'
 
 
 export default function Packages() {
@@ -46,8 +49,6 @@ export default function Packages() {
 
   };
   
-
-
 
 
 //   var settingsService = {
@@ -95,8 +96,16 @@ export default function Packages() {
 // };
 
 
+
   return (
     <div className='package-wrapper'>
+
+        <BookTeaTime
+          imgBooking = {golfBallBook}
+          book = "BOOK TEA-TIME"
+          bookArr = {bookingArrow}
+         />
+
         <div className="overlay-packages-container">
             <img src={bannerPackages} alt=""/>
             <div className='packages-caption'>

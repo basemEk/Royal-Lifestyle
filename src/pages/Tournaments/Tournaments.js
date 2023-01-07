@@ -3,6 +3,9 @@ import styles from "./Tournaments.module.css";
 import TournamentsBanner from "../../assets/tournaments/Tournamentsbanner.png";
 import greenDiv from "../../assets/tournaments/green-div-banner.png";
 import twoGolfSticks from "../../assets/tournaments/two-golf-sticks.png";
+import golfBallBook from '../../assets/golf-ball-with-dents.png'
+import bookingArrow from '../../assets/arrow-green-packages.png'
+import BookTeaTime from '../../components/BookTeaTime/BookTeaTime'
 import Login from "../Login/Login";
 
 
@@ -10,6 +13,13 @@ export default function Tournaments() {
   return (
     <>
       <div className={styles.tournamentsWrapper}>
+
+      <BookTeaTime
+          imgBooking = {golfBallBook}
+          book = "BOOK TEA-TIME"
+          bookArr = {bookingArrow}
+         />
+
         <div className={styles.banner}>
           <img
             src={TournamentsBanner}

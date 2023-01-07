@@ -21,6 +21,13 @@
 }
 
 .similarOffers {
+    position: absolute;
+    top: 30%;
+    left: 6%;
+    width: 300px
+}
+
+.similarOffersTwo {
     text-transform: uppercase;
     margin-left: 100px;
     margin-bottom: 25px;
@@ -202,6 +209,20 @@
 
 
 @media (max-width: 768px) {
+    .similarOffers {
+        position: absolute;
+        top: 22%;
+        width: 300px
+    }
+
+    .similarOffersTwo {
+        text-transform: uppercase;
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 25px;
+        color: #454545;
+    }
+
     .similarh4 {
         top: 35%;
         margin: 0 auto;
@@ -292,6 +313,13 @@
     }
 
     .similarOffers {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        width: 300px
+    }
+
+    .similarOffersTwo {
         text-align: center;
         margin-right: 100px;
     }
@@ -380,7 +408,7 @@
         /* margin: 0 auto; */
     }
 
-    .similarOffers {
+    .similarOffersTwo {
         text-align: center;
         margin: 5% auto;
     }

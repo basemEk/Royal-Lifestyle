@@ -14,12 +14,22 @@ import asSeenOn from "../../assets/joumano/as-seen-on.png";
 import golfKit from "../../assets/joumano/golf-kit.png";
 import jcInWhiteShirt from "../../assets/joumano/jack-joumano.png";
 import Login from "../Login/Login";
+import golfBallBook from '../../assets/golf-ball-with-dents.png'
+import bookingArrow from '../../assets/arrow-green-packages.png'
+import BookTeaTime from '../../components/BookTeaTime/BookTeaTime'
 
 
 export default function JoumanoGolfClub() {
   return (
     <>
       <div className={styles.joumanoWrapper}>
+
+      <BookTeaTime
+          imgBooking = {golfBallBook}
+          book = "BOOK TEA-TIME"
+          bookArr = {bookingArrow}
+      />
+
         <div className={styles.joumanoBanner}>
           <img src={bannerJoumano} className={styles.bJoumanoTopImg} alt="banner" />
           <div className={styles.lightGreenBanner}>

@@ -3,11 +3,21 @@ import "./OurStory.css";
 import ManInSuit from "../../assets/man-in-suite.png";
 import Woman from "../../assets/woman.png";
 import Login from "../Login/Login";
+import golfBallBook from '../../assets/golf-ball-with-dents.png'
+import bookingArrow from '../../assets/arrow-green-packages.png'
+import BookTeaTime from '../../components/BookTeaTime/BookTeaTime'
 
 
 export default function OurStoty() {
   return (
     <div className="wrapper">
+
+        <BookTeaTime
+          imgBooking = {golfBallBook}
+          book = "BOOK TEA-TIME"
+          bookArr = {bookingArrow}
+         />
+
       <div className="first-section">
         <h1 style={{ fontSize: "50px" }}>
           The <span>Royal Lifestyle</span>

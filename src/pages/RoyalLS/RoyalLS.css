@@ -94,6 +94,10 @@ body {
     background-color: white;
 }
 
+.banner-rls {
+    width: 100%
+}
+
 
 
 
@@ -109,7 +113,8 @@ body {
     }
 
     .banner-rls {
-        width: 375px;
+        width: 100%;
+        background-size: cover;
     }
 
     /* .banner-rls {
@@ -169,7 +174,8 @@ body {
     }
 
     .banner-rls {
-        width: 768px;
+        width: 100%;
+        background-size: cover;
     }
 
     .logo-rb{

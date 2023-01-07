@@ -13,12 +13,22 @@ import '../../components/Feature/Style.css'
 import '../../components/Premium/Style.css'
 import '../../components/Welcome/Style.css'
 import '../../components/Upcoming/Style.css'
+import golfBallBook from '../../assets/golf-ball-with-dents.png'
+import bookingArrow from '../../assets/arrow-green-packages.png'
+import BookTeaTime from '../../components/BookTeaTime/BookTeaTime'
 
 
 export default function Home() {
   return (
     <div>
         <Banner />
+
+        <BookTeaTime
+          imgBooking = {golfBallBook}
+          book = "BOOK TEA-TIME"
+          bookArr = {bookingArrow}
+         />
+
         <Welcome />
         <Premium />
         <Upcoming />

@@ -7,11 +7,21 @@ import plane from '../../assets/rls-airplane.png'
 import percentage from '../../assets/rls-percentage.png'
 import call from '../../assets/rls-call.png'
 import Login from '../Login/Login';
+import golfBallBook from '../../assets/golf-ball-with-dents.png'
+import bookingArrow from '../../assets/arrow-green-packages.png'
+import BookTeaTime from '../../components/BookTeaTime/BookTeaTime'
 
 
 export default function RoyalLS() {
   return (
     <div className='royal-container'>
+
+        <BookTeaTime
+          imgBooking = {golfBallBook}
+          book = "BOOK TEA-TIME"
+          bookArr = {bookingArrow}
+         />
+
         <div className='bannerimg-blur'>
             <img src={banner} alt="royal lifestyle" className='banner-rls' />
             <div className='blury-circle'></div>

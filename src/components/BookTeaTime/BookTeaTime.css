@@ -13,15 +13,11 @@
     align-items: center;
   }
 
-
   .bookingImg {
     background-color: #FFF;
     border: 2px solid #fff;
     border-radius: 50%;
-    height: 50px;
-    right: 195px;
-    width: 50px;
-    color: #fff;
+    width: 68px;
     cursor: pointer;
   }
 

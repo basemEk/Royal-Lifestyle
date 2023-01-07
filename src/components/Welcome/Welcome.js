@@ -30,6 +30,8 @@ export default function Welcome() {
     ),
     customPaging: (i) => <div></div>,
   };
+
+  
   return (
     <body className="body">
       <Slider className="WelcomeSlider" {...settings}>

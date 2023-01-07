@@ -15,6 +15,9 @@ import tshirtTwo from '../../assets/package-details-assets/tshirt.png'
 import wifiTwo from '../../assets/package-details-assets/wifi.png'
 import flag from '../../assets/package-details-assets/flag-golf.png'
 import Login from "../Login/Login";
+import golfBallBook from '../../assets/golf-ball-with-dents.png'
+import bookingArrow from '../../assets/arrow-green-packages.png'
+import BookTeaTime from '../../components/BookTeaTime/BookTeaTime'
 
 import airplane from "../../assets/package-details-icons/aireplane.png";
 import dumbles from "../../assets/package-details-icons/dumbles.png";
@@ -70,6 +73,13 @@ export default function PackageDetails() {
   return (
     <>
       <div className={styles.detailsWrapper}>
+
+      <BookTeaTime
+          imgBooking = {golfBallBook}
+          book = "BOOK TEA-TIME"
+          bookArr = {bookingArrow}
+         />
+
         <div className={styles.golfOffer}>
           <div className={styles.similarOffers}>
             <h4 className={styles.similarh4}>GOLF OFFER NAME</h4>
@@ -288,7 +298,7 @@ export default function PackageDetails() {
           </div>
         </div>
 
-        <div className={styles.similarOffers}>
+        <div className={styles.similarOffersTwo}>
           <h4>Similar Offers</h4>
         </div>
 

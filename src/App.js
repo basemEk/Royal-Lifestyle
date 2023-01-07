@@ -16,8 +16,6 @@ import Contact from './pages/Contact/Contact';
 import SignUp from './pages/SignUp/SignUp';
 import Reset from './pages/Reset/Reset';
 import SubmitQuote from './pages/SubmitQuote/SubmitQuote';
-import BookTeaTime from './components/BookTeaTime/BookTeaTime';
-
 
 
 function App() {
@@ -27,8 +25,6 @@ function App() {
       <Navbar />
 
       <ScrollToTop />
-
-      <BookTeaTime />
       
       <Routes>
         <Route exact path="/" element={<Home />} />    
