@@ -158,7 +158,7 @@ export default function Feature() {
                     </div>
 
                     <div className='view-all-card'>
-                        <a href="/all-cards"><h4>View All Packages</h4></a>
+                        <a href="/all-features"><h4>View All Packages</h4></a>
                     </div>
                 </Slider>
                 <div>

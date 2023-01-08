@@ -16,6 +16,7 @@ import Contact from './pages/Contact/Contact';
 import SignUp from './pages/SignUp/SignUp';
 import Reset from './pages/Reset/Reset';
 import SubmitQuote from './pages/SubmitQuote/SubmitQuote';
+import ViewAllFeatures from './pages/ViewAllFeatures/ViewAllFeatures';
 
 
 function App() {
@@ -36,12 +37,11 @@ function App() {
         <Route path="/offers-deals" element={<OffersAndDeals />} />
         <Route path="/package-details" element={<PackageDetails />} />
         <Route path="/subscribe" element={<Subscribe />} />
-
         <Route path="/contact" element={<Contact />} />
-
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/reset-password" element={<Reset />} />
         <Route path="/submit-quote" element={<SubmitQuote />} />
+        <Route path="/all-features" element={<ViewAllFeatures />} />
       </Routes> 
 
       <Footer /> 

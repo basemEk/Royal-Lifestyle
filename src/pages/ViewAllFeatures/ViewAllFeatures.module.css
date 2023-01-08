@@ -1,0 +1,267 @@
+.joumanoBanner {
+    width: 100%;
+    background-size: cover;
+}
+
+.featuresContainer {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    color: #7e6d44;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.singleFeature {
+    background-color: white;
+    position: relative;
+    border-style: groove;
+    border-color: #a9a2a20f;
+    margin: 5% auto 5% auto;
+    width: auto;
+    max-width: fit-content;
+    object-fit: cover;
+    flex: 0 0 calc(50% - 20px);
+}
+
+.singleFeature>p {
+    text-align: center;
+    font-weight: 300;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+.allFeaturesLogin {
+    z-index: 1000;
+    right: 0;
+    top: 100px;
+    position: absolute;
+    height: 500px;
+    margin-right: 20px;
+    background-color: white;
+}
+
+.lightGreenBanner {
+    font-family: didot;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: white;
+    background-color: #5F6F1B;
+    opacity: 0.7;
+    width: 500px
+}
+
+
+.featuresContainer>h1 {
+    font-family: didot;
+    margin-top: 10px;
+}
+
+.featuresContainer>p {
+    font-size: medium;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 0 18%;
+    text-align: center;
+}
+
+.singleFeature>h3>strong {
+    color: black
+}
+
+.singleFeature>h3 {
+    color: rgb(122, 95, 58);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.singleCardIMage>img {
+    width: 100%;
+    height: 300px;
+}
+
+.singleCardIMagePrice {
+    color: white;
+    font-weight: 400;
+    background-color: rgb(20 15 18 / 48%);
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    z-index: 1000;
+    top: 5%;
+    right: 5%;
+}
+
+.singleCardIMagePrice .starting {
+    transform: translateY(-10px);
+    margin-bottom: 0 !important;
+}
+
+.singleCardarrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.singleCard h3 {
+    font-size: 0.95rem;
+    margin: auto 80px;
+}
+
+.singleCard h3 strong {
+    color: black
+}
+
+.singleCard .cardTitle {
+    font-size: large;
+}
+
+
+
+@media (max-width: 768px) {
+ .bJoumanoTopImg {
+    width: 100%;
+    background-size: cover;
+    height: 110px;
+}
+
+.featuresContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.lightGreenBanner {    
+    width: 375px;
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.singleFeature {
+    margin-left: auto;
+    margin-bottom: 15%;
+}
+
+.singleCardIMagePrice .starting {
+    transform: translateY(-10px);
+    margin-bottom: 0 !important;
+  }
+
+  .singleCardIMagePrice {
+    top: 2%;
+  }
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 998px) {
+    .lightGreenBanner {    
+        width: 375px;
+        position: relative;
+        transform: translate(-190px, -30px);
+    } 
+
+    .bJoumanoTopImg {
+         height: 100%;
+         width: 768px;
+         background-size: cover;
+    }
+
+    .featuresContainer {
+        width: 90% !important;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .featuresContainer>h1 {
+        font-family: didot;
+        margin-top: 10px;
+    }
+    
+    .featuresContainer>p {
+        font-size: medium;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        padding: 0 18%;
+        text-align: center;
+    }
+
+    .singleFeature {
+        margin-left: auto;
+        margin-bottom: 15%;
+    }
+
+    .singleCardIMagePrice p {
+        margin-bottom: 10px !important;
+      }
+
+      .singleCardIMagePrice .starting {
+        margin-bottom: 100px !important;
+      }
+
+      .singleCardIMagePrice  {
+        top: 2%;
+      }
+      
+ }
+
+
+
+
+
+
+@media (min-width: 2520px) {
+    .bJoumanoTopImg {
+        width: 100%;
+    }
+    
+    .lightGreenBanner {
+        font-family: didot;
+        text-align: center;
+        position: absolute;
+        top: 18%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        color: white;
+        background-color: #148E38;
+        opacity: 0.41;
+        width: 500px;
+    }
+
+    .singleFeature {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .singleCardIMagePrice {
+        top: 1%;
+    }
+
+    .singleCardIMagePrice>p {
+        margin-bottom: -2px
+    }
+
+    .singleCardarrow {
+        transform: translateY(15px);
+    }
+
+    .featuresContainer {
+        margin: 5% auto;
+        width: 40% !important;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
