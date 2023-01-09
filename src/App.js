@@ -17,6 +17,7 @@ import SignUp from './pages/SignUp/SignUp';
 import Reset from './pages/Reset/Reset';
 import SubmitQuote from './pages/SubmitQuote/SubmitQuote';
 import ViewAllFeatures from './pages/ViewAllFeatures/ViewAllFeatures';
+import FeaturePackageDetails from './pages/FeaturePackageDetails/FeaturePackageDetails';
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
         <Route path="/reset-password" element={<Reset />} />
         <Route path="/submit-quote" element={<SubmitQuote />} />
         <Route path="/all-features" element={<ViewAllFeatures />} />
+        <Route path="/feature-package-details" element={<FeaturePackageDetails />} />
       </Routes> 
 
       <Footer /> 

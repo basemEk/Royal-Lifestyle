@@ -11,7 +11,6 @@ import arrow from '../../images/arrow.png'
 import Login from '../Login/Login'
 
 
-
 export default function ViewAllFeatures() {
     const featuresCards = [];
 
@@ -55,7 +54,9 @@ export default function ViewAllFeatures() {
                 <p className={styles.cardTitle}>The Lagoon Park Hyatt Dubai Deira</p>
                 <h3>4.0-star <strong>HOTEL CLASS</strong></h3>
                 <div className={styles.singleCardarrow}>
+                  <a href="/feature-package-details">
                     <img src={arrow} alt='arrow' className={styles.featuresArrow} />
+                  </a>
                 </div>
               </div>
             </div>

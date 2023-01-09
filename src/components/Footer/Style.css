@@ -177,9 +177,9 @@
 
 
 
-@media (min-width: 767px) and (max-width: 998px) {
+@media (min-width: 768px) and (max-width: 998px) {
     .footerWrapper {
-        width: 767px;
+        width: 100%;
     }
 
     .footerLogos {
